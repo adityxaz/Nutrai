@@ -1,0 +1,704 @@
+
+{
+  "GR001": {
+    "food_name": "🌾 Whole Wheat Kernels (Gehu)",
+    "calories": 340,
+    "protein": 13.0,
+    "carbs": 72.0,
+    "fat": 2.5
+  },
+  "GR002": {
+    "food_name": "🌾 Whole Wheat Flour (Atta)",
+    "calories": 340,
+    "protein": 12.0,
+    "carbs": 72.0,
+    "fat": 2.0
+  },
+  "GR003": {
+    "food_name": "🌾 Refined Wheat Flour (Maida)",
+    "calories": 364,
+    "protein": 10.0,
+    "carbs": 76.0,
+    "fat": 1.0
+  },
+  "GR004": {
+    "food_name": "🍚 Long-Grain Basmati Rice (Basmati Chawal)",
+    "calories": 365,
+    "protein": 7.0,
+    "carbs": 78.0,
+    "fat": 0.6
+  },
+  "GR005": {
+    "food_name": "🍚 Short-Grain White Rice (Sona Masuri / Kolam)",
+    "calories": 360,
+    "protein": 6.5,
+    "carbs": 79.0,
+    "fat": 0.5
+  },
+  "GR006": {
+    "food_name": "🍚 Parboiled Rice (Ukda Chawal)",
+    "calories": 360,
+    "protein": 7.0,
+    "carbs": 78.0,
+    "fat": 0.6
+  },
+  "GR007": {
+    "food_name": "🌾 Flattened Rice Thick (Mota Poha)",
+    "calories": 350,
+    "protein": 7.0,
+    "carbs": 77.0,
+    "fat": 1.0
+  },
+  "GR008": {
+    "food_name": "🌾 Flattened Rice Thin (Patla Poha)",
+    "calories": 350,
+    "protein": 7.0,
+    "carbs": 77.0,
+    "fat": 1.0
+  },
+  "GR009": {
+    "food_name": "🍿 Puffed Rice (Murmura / Mamra)",
+    "calories": 325,
+    "protein": 6.0,
+    "carbs": 80.0,
+    "fat": 0.5
+  },
+  "GR010": {
+    "food_name": "🌾 Semolina (Sooji / Rava)",
+    "calories": 360,
+    "protein": 12.0,
+    "carbs": 72.0,
+    "fat": 1.0
+  },
+  "GR011": {
+    "food_name": "🌾 Broken Wheat (Dalia)",
+    "calories": 340,
+    "protein": 12.0,
+    "carbs": 72.0,
+    "fat": 2.0
+  },
+  "GR012": {
+    "food_name": "🌾 Sorghum (Jowar)",
+    "calories": 329,
+    "protein": 11.0,
+    "carbs": 72.0,
+    "fat": 3.0
+  },
+  "GR013": {
+    "food_name": "🌾 Pearl Millet (Bajra)",
+    "calories": 336,
+    "protein": 11.0,
+    "carbs": 73.0,
+    "fat": 3.5
+  },
+  "GR014": {
+    "food_name": "🌾 Finger Millet (Ragi / Nachni)",
+    "calories": 320,
+    "protein": 7.0,
+    "carbs": 72.0,
+    "fat": 1.5
+  },
+  "GR015": {
+    "food_name": "🍚 Barnyard Millet (Sanwa / Samak Chawal)",
+    "calories": 300,
+    "protein": 6.5,
+    "carbs": 65.0,
+    "fat": 2.0
+  },
+  "GR016": {
+    "food_name": "🌾 Buckwheat (Kuttu)",
+    "calories": 343,
+    "protein": 13.0,
+    "carbs": 71.0,
+    "fat": 3.4
+  },
+  "GR017": {
+    "food_name": "🌾 Amaranth Grain (Rajgira / Ramdana)",
+    "calories": 371,
+    "protein": 14.0,
+    "carbs": 65.0,
+    "fat": 7.0
+  },
+  "GR018": {
+    "food_name": "🌾 Foxtail Millet (Kangni / Kakum)",
+    "calories": 331,
+    "protein": 12.0,
+    "carbs": 66.0,
+    "fat": 3.5
+  },
+  "GR019": {
+    "food_name": "🌾 Kodo Millet (Kodra)",
+    "calories": 330,
+    "protein": 8.0,
+    "carbs": 66.0,
+    "fat": 3.5
+  },
+  "GR020": {
+    "food_name": "🌾 Little Millet (Kutki)",
+    "calories": 330,
+    "protein": 9.0,
+    "carbs": 67.0,
+    "fat": 3.5
+  },
+  "GR021": {
+    "food_name": "🌾 Proso Millet (Barri)",
+    "calories": 356,
+    "protein": 12.0,
+    "carbs": 70.0,
+    "fat": 3.5
+  },
+  "GR022": {
+    "food_name": "🌾 Browntop Millet (Choti Kangni)",
+    "calories": 350,
+    "protein": 11.0,
+    "carbs": 68.0,
+    "fat": 3.0
+  },
+  "GR023": {
+    "food_name": "🌾 Rice Flour (Chawal ka Atta)",
+    "calories": 366,
+    "protein": 6.0,
+    "carbs": 80.0,
+    "fat": 0.5
+  },
+  "GR024": {
+    "food_name": "🍚 Brown Rice (Bhura Chawal)",
+    "calories": 362,
+    "protein": 7.5,
+    "carbs": 76.0,
+    "fat": 2.5
+  },
+  "GR025": {
+    "food_name": "🍚 Red Rice (Matta Chawal)",
+    "calories": 360,
+    "protein": 7.0,
+    "carbs": 76.0,
+    "fat": 2.0
+  },
+  "GR026": {
+    "food_name": "🍚 Black Rice (Chak‑Hao)",
+    "calories": 356,
+    "protein": 8.5,
+    "carbs": 75.0,
+    "fat": 2.0
+  },
+  "GR027": {
+    "food_name": "🌾 Husked Barley (Jau)",
+    "calories": 354,
+    "protein": 12.0,
+    "carbs": 73.0,
+    "fat": 2.3
+  },
+  "GR028": {
+    "food_name": "🌾 Barley Flour (Jau ka Atta)",
+    "calories": 345,
+    "protein": 11.0,
+    "carbs": 74.0,
+    "fat": 2.0
+  },
+  "GR029": {
+    "food_name": "🌽 Maize / Corn Kernels (Makka)",
+    "calories": 365,
+    "protein": 9.0,
+    "carbs": 74.0,
+    "fat": 4.7
+  },
+  "GR030": {
+    "food_name": "🌽 Maize Flour (Makki ka Atta)",
+    "calories": 365,
+    "protein": 9.0,
+    "carbs": 74.0,
+    "fat": 4.0
+  },
+  "GR031": {
+    "food_name": "🌽 Cornmeal (Makai ka Daliya)",
+    "calories": 370,
+    "protein": 9.0,
+    "carbs": 79.0,
+    "fat": 3.5
+  },
+  "GR032": {
+    "food_name": "🌽 Flaked Corn (Makai Poha)",
+    "calories": 360,
+    "protein": 8.0,
+    "carbs": 80.0,
+    "fat": 2.5
+  },
+  "GR033": {
+    "food_name": "🌾 Sorghum Flour (Jwar ka Atta)",
+    "calories": 350,
+    "protein": 10.0,
+    "carbs": 75.0,
+    "fat": 3.0
+  },
+  "GR034": {
+    "food_name": "🌾 Pearl Millet Flour (Bajre ka Atta)",
+    "calories": 360,
+    "protein": 11.0,
+    "carbs": 74.0,
+    "fat": 3.5
+  },
+  "GR035": {
+    "food_name": "🌾 Finger Millet Flour (Ragi Atta)",
+    "calories": 320,
+    "protein": 7.0,
+    "carbs": 72.0,
+    "fat": 1.5
+  },
+  "GR036": {
+    "food_name": "🌾 Buckwheat Flour (Kuttu ka Atta)",
+    "calories": 343,
+    "protein": 13.0,
+    "carbs": 71.0,
+    "fat": 3.4
+  },
+  "GR037": {
+    "food_name": "🌾 Amaranth Flour (Rajgira Atta)",
+    "calories": 370,
+    "protein": 14.0,
+    "carbs": 65.0,
+    "fat": 7.0
+  },
+  "GR038": {
+    "food_name": "🌾 Water Chestnut Flour (Singhara Atta)",
+    "calories": 330,
+    "protein": 7.0,
+    "carbs": 76.0,
+    "fat": 0.5
+  },
+  "GR039": {
+    "food_name": "🌾 Beaten Wheat Flakes (Gehu ka Poha)",
+    "calories": 350,
+    "protein": 12.0,
+    "carbs": 74.0,
+    "fat": 2.0
+  },
+  "GR040": {
+    "food_name": "⚪ Tapioca Pearls (Sabudana)",
+    "calories": 358,
+    "protein": 0.2,
+    "carbs": 88.0,
+    "fat": 0.1
+  },
+  "GR041": {
+    "food_name": "⚪ Tapioca Flour (Sabudana Atta)",
+    "calories": 358,
+    "protein": 0.2,
+    "carbs": 88.0,
+    "fat": 0.1
+  },
+  "GR042": {
+    "food_name": "🌾 Rice Flakes Pounded (Aval)",
+    "calories": 350,
+    "protein": 7.0,
+    "carbs": 77.0,
+    "fat": 1.0
+  },
+  "GR043": {
+    "food_name": "🍿 Parched Rice (Khel / Laya)",
+    "calories": 370,
+    "protein": 7.0,
+    "carbs": 80.0,
+    "fat": 1.0
+  },
+  "GR044": {
+    "food_name": "🍿 Puffed Wheat (Gehu ka Murmura)",
+    "calories": 360,
+    "protein": 12.0,
+    "carbs": 76.0,
+    "fat": 1.0
+  },
+  "GR045": {
+    "food_name": "⚪ Sago Flour (Sabudana Flour)",
+    "calories": 350,
+    "protein": 0.2,
+    "carbs": 87.0,
+    "fat": 0.1
+  },
+  "GR046": {
+    "food_name": "🥣 Oats (Oats Jau variety)",
+    "calories": 389,
+    "protein": 17.0,
+    "carbs": 66.0,
+    "fat": 7.0
+  },
+  "GR047": {
+    "food_name": "🌾 Semolina Coarse (Bada Rava)",
+    "calories": 360,
+    "protein": 12.0,
+    "carbs": 72.0,
+    "fat": 1.0
+  },
+  "GR048": {
+    "food_name": "🍚 Idli Rice (Idli Chawal)",
+    "calories": 360,
+    "protein": 6.5,
+    "carbs": 79.0,
+    "fat": 0.5
+  },
+  "GR049": {
+    "food_name": "🍚 Aromatic Short Rice (Gobindobhog / Ambemohar)",
+    "calories": 365,
+    "protein": 7.0,
+    "carbs": 78.0,
+    "fat": 0.6
+  },
+  "GR050": {
+    "food_name": "🍚 Sticky Rice (Bora Chawal)",
+    "calories": 360,
+    "protein": 6.5,
+    "carbs": 79.0,
+    "fat": 0.5
+  },
+  "FB001": {
+    "food_name": "🫓 Whole Wheat Flatbread (Phulka)",
+    "calories": 120,
+    "protein": 3.0,
+    "carbs": 25.0,
+    "fat": 0.5
+  },
+  "FB002": {
+    "food_name": "🫓 Griddle Flatbread (Chapati)",
+    "calories": 120,
+    "protein": 3.0,
+    "carbs": 25.0,
+    "fat": 0.5
+  },
+  "FB003": {
+    "food_name": "🫓 Layered Wheat Bread (Plain Parantha)",
+    "calories": 180,
+    "protein": 4.0,
+    "carbs": 28.0,
+    "fat": 6.0
+  },
+  "FB004": {
+    "food_name": "🫓 Triangular Layered Bread (Tikon Parantha)",
+    "calories": 180,
+    "protein": 4.0,
+    "carbs": 28.0,
+    "fat": 6.0
+  },
+  "FB005": {
+    "food_name": "🫓 Square Layered Bread (Chaukon Parantha)",
+    "calories": 180,
+    "protein": 4.0,
+    "carbs": 28.0,
+    "fat": 6.0
+  },
+  "FB006": {
+    "food_name": "🫓 Thick Leavened Flatbread (Khamiri Roti)",
+    "calories": 150,
+    "protein": 4.0,
+    "carbs": 30.0,
+    "fat": 1.0
+  },
+  "FB007": {
+    "food_name": "🫓 Paper-Thin Bread (Rumali Roti)",
+    "calories": 100,
+    "protein": 3.0,
+    "carbs": 20.0,
+    "fat": 0.5
+  },
+  "FB008": {
+    "food_name": "🫓 Clay Oven Bread (Tandoori Roti)",
+    "calories": 150,
+    "protein": 4.0,
+    "carbs": 30.0,
+    "fat": 1.0
+  },
+  "FB009": {
+    "food_name": "🫓 Griddle Tandoori Style (Tawa Tandoori Roti)",
+    "calories": 150,
+    "protein": 4.0,
+    "carbs": 30.0,
+    "fat": 1.0
+  },
+  "FB010": {
+    "food_name": "🫓 Flaky Malabar Parotta (Barotta)",
+    "calories": 220,
+    "protein": 4.0,
+    "carbs": 32.0,
+    "fat": 8.0
+  },
+  "FB011": {
+    "food_name": "🥔 Spiced Potato Flatbread (Aloo Parantha)",
+    "calories": 210,
+    "protein": 5.0,
+    "carbs": 32.0,
+    "fat": 7.0
+  },
+  "FB012": {
+    "food_name": "🫓 Grated Radish Flatbread (Mooli Parantha)",
+    "calories": 200,
+    "protein": 5.0,
+    "carbs": 30.0,
+    "fat": 6.0
+  },
+  "FB013": {
+    "food_name": "🧀 Spiced Cottage Cheese Flatbread (Paneer Parantha)",
+    "calories": 230,
+    "protein": 8.0,
+    "carbs": 28.0,
+    "fat": 9.0
+  },
+  "FB014": {
+    "food_name": "🧅 Finely Chopped Onion Flatbread (Pyaz Parantha)",
+    "calories": 210,
+    "protein": 5.0,
+    "carbs": 30.0,
+    "fat": 7.0
+  },
+  "FB015": {
+    "food_name": "🥦 Spiced Cauliflower Flatbread (Gobhi Parantha)",
+    "calories": 205,
+    "protein": 5.0,
+    "carbs": 29.0,
+    "fat": 6.0
+  },
+  "FB016": {
+    "food_name": "🌿 Fenugreek Wheat Flatbread (Methi Parantha)",
+    "calories": 200,
+    "protein": 5.0,
+    "carbs": 28.0,
+    "fat": 6.0
+  },
+  "FB017": {
+    "food_name": "🫛 Green Peas Flatbread (Matar Parantha)",
+    "calories": 210,
+    "protein": 6.0,
+    "carbs": 29.0,
+    "fat": 7.0
+  },
+  "FB018": {
+    "food_name": "🥕 Mixed Vegetable Flatbread (Mix Veg Parantha)",
+    "calories": 215,
+    "protein": 6.0,
+    "carbs": 30.0,
+    "fat": 7.0
+  },
+  "FB019": {
+    "food_name": "🫓 Lentil-Stuffed Flatbread (Dal Parantha)",
+    "calories": 220,
+    "protein": 7.0,
+    "carbs": 28.0,
+    "fat": 7.0
+  },
+  "FB020": {
+    "food_name": "🍳 Egg-Stuffed Flaky Bread (Mughlai Parantha / Baida Roti)",
+    "calories": 250,
+    "protein": 9.0,
+    "carbs": 27.0,
+    "fat": 10.0
+  },
+  "FB021": {
+    "food_name": "🌾 Sorghum Flatbread (Jowar Bhakri)",
+    "calories": 120,
+    "protein": 3.0,
+    "carbs": 25.0,
+    "fat": 1.0
+  },
+  "FB022": {
+    "food_name": "🌾 Pearl Millet Flatbread (Bajra Rotla)",
+    "calories": 130,
+    "protein": 3.5,
+    "carbs": 26.0,
+    "fat": 1.5
+  },
+  "FB023": {
+    "food_name": "🌾 Finger Millet Flatbread (Ragi Roti)",
+    "calories": 110,
+    "protein": 2.5,
+    "carbs": 23.0,
+    "fat": 1.0
+  },
+  "FB024": {
+    "food_name": "🌽 Yellow Maize Flatbread (Makki ki Roti)",
+    "calories": 140,
+    "protein": 3.0,
+    "carbs": 28.0,
+    "fat": 1.5
+  },
+  "FB025": {
+    "food_name": "🌾 Bengal Gram Flour Bread (Missi Roti)",
+    "calories": 150,
+    "protein": 5.0,
+    "carbs": 25.0,
+    "fat": 2.0
+  },
+  "FB026": {
+    "food_name": "🌾 Multi-Grain Flatbread (Thalipeeth)",
+    "calories": 160,
+    "protein": 6.0,
+    "carbs": 24.0,
+    "fat": 3.0
+  },
+  "FB027": {
+    "food_name": "🍚 Spiced Rice Flour Flatbread (Akki Roti)",
+    "calories": 140,
+    "protein": 3.0,
+    "carbs": 28.0,
+    "fat": 1.5
+  },
+  "FB028": {
+    "food_name": "🌾 Spiced Ragi Flatbread (Ragi Adai)",
+    "calories": 130,
+    "protein": 3.0,
+    "carbs": 26.0,
+    "fat": 1.5
+  },
+  "FB029": {
+    "food_name": "🌾 Black Chickpea Flour Bread (Chane ki Roti)",
+    "calories": 150,
+    "protein": 6.0,
+    "carbs": 24.0,
+    "fat": 2.0
+  },
+  "FB030": {
+    "food_name": "🌾 Barley Flour Flatbread (Jau ki Roti)",
+    "calories": 135,
+    "protein": 4.0,
+    "carbs": 26.0,
+    "fat": 1.0
+  },
+  "FB031": {
+    "food_name": "🫓 Classic Leavened Clay-Oven Bread (Plain Naan)",
+    "calories": 260,
+    "protein": 8.0,
+    "carbs": 50.0,
+    "fat": 4.0
+  },
+  "FB032": {
+    "food_name": "🫓 Butter-Glazed Leavened Bread (Butter Naan)",
+    "calories": 290,
+    "protein": 8.0,
+    "carbs": 50.0,
+    "fat": 7.0
+  },
+  "FB033": {
+    "food_name": "🫓 Aromatic Garlic Leavened Bread (Garlic Naan)",
+    "calories": 280,
+    "protein": 8.0,
+    "carbs": 49.0,
+    "fat": 6.0
+  },
+  "FB034": {
+    "food_name": "🍇 Sweet Nuts & Fruit Leavened Bread (Peshawari Naan)",
+    "calories": 320,
+    "protein": 9.0,
+    "carbs": 52.0,
+    "fat": 8.0
+  },
+  "FB035": {
+    "food_name": "🍖 Minced Meat Leavened Bread (Keema Naan)",
+    "calories": 330,
+    "protein": 14.0,
+    "carbs": 45.0,
+    "fat": 10.0
+  },
+  "FB036": {
+    "food_name": "🫓 Flaky Layered Clay-Oven Bread (Lachha Parantha)",
+    "calories": 300,
+    "protein": 6.0,
+    "carbs": 48.0,
+    "fat": 9.0
+  },
+  "FB037": {
+    "food_name": "🌿 Mint-Infused Flaky Bread (Pudina Parantha)",
+    "calories": 290,
+    "protein": 6.0,
+    "carbs": 47.0,
+    "fat": 8.0
+  },
+  "FB038": {
+    "food_name": "🫓 Saffron-Infused Royal Flatbread (Sheermal)",
+    "calories": 320,
+    "protein": 7.0,
+    "carbs": 55.0,
+    "fat": 7.0
+  },
+  "FB039": {
+    "food_name": "🫓 Sweet Rich Fermented Bread (Bakarkhani)",
+    "calories": 330,
+    "protein": 7.0,
+    "carbs": 56.0,
+    "fat": 8.0
+  },
+  "FB040": {
+    "food_name": "🫓 Crisp Rich Layered Flatbread (Kulcha / Amritsari Kulcha)",
+    "calories": 280,
+    "protein": 7.0,
+    "carbs": 50.0,
+    "fat": 6.0
+  },
+  "FB041": {
+    "food_name": "🌿 Gujarati Spiced Wheat Flatbread (Thepla)",
+    "calories": 190,
+    "protein": 5.0,
+    "carbs": 28.0,
+    "fat": 6.0
+  },
+  "FB042": {
+    "food_name": "🫓 Crisp Gujarati Wheat Biscuit Bread (Bhakhri)",
+    "calories": 200,
+    "protein": 5.0,
+    "carbs": 30.0,
+    "fat": 6.0
+  },
+  "FB043": {
+    "food_name": "🍚 Rice Crepe-Style Flatbread (Pathiri)",
+    "calories": 150,
+    "protein": 3.0,
+    "carbs": 32.0,
+    "fat": 1.0
+  },
+  "FB044": {
+    "food_name": "🍚 Rice Flour Griddle Roti (Chawal ki Roti / Chela / Chila)",
+    "calories": 160,
+    "protein": 3.0,
+    "carbs": 34.0,
+    "fat": 1.0
+  },
+  "FB045": {
+    "food_name": "🌾 Water Chestnut Fasting Bread (Singhare ke Atte ki Roti)",
+    "calories": 170,
+    "protein": 3.0,
+    "carbs": 36.0,
+    "fat": 1.0
+  },
+  "FB046": {
+    "food_name": "🌾 Buckwheat Fasting Bread (Kuttu ki Roti)",
+    "calories": 180,
+    "protein": 4.0,
+    "carbs": 34.0,
+    "fat": 2.0
+  },
+  "FB047": {
+    "food_name": "🌾 Amaranth Fasting Bread (Rajgira Roti)",
+    "calories": 190,
+    "protein": 5.0,
+    "carbs": 32.0,
+    "fat": 3.0
+  },
+  "FB048": {
+    "food_name": "🫓 Layered Crispy Sindhi Bread (Koki)",
+    "calories": 220,
+    "protein": 6.0,
+    "carbs": 30.0,
+    "fat": 8.0
+  },
+  "FB049": {
+    "food_name": "🫓 Himachali Leavened Steamed Bread (Siddu variant)",
+    "calories": 210,
+    "protein": 6.0,
+    "carbs": 35.0,
+    "fat": 5.0
+  },
+  "FB050": {
+    "food_name": "⚱️ Sweet Jaggery Stuffing Bread (Puran Poli / Holige / Obbattu)",
+    "calories": 250,
+    "protein": 6.0,
+    "carbs": 45.0,
+    "fat": 6.0
+  }
+}
+

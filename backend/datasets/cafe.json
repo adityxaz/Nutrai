@@ -1,0 +1,260 @@
+
+{
+  "BV001": {
+    "food_name": "☕ Single Espresso Shot (Espresso Shot)",
+    "category": "Beverage",
+    "calories": 9,
+    "protein": 0.2,
+    "carbs": 1.7,
+    "fat": 0.0
+  },
+  "BV002": {
+    "food_name": "☕ Double Espresso Shot (Doppio)",
+    "category": "Beverage",
+    "calories": 18,
+    "protein": 0.4,
+    "carbs": 3.4,
+    "fat": 0.0
+  },
+  "BV003": {
+    "food_name": "☕ Café Americano (Black Coffee)",
+    "category": "Beverage",
+    "calories": 5,
+    "protein": 0.2,
+    "carbs": 1.0,
+    "fat": 0.0
+  },
+  "BV004": {
+    "food_name": "☕ Classic Cappuccino (Cappuccino)",
+    "category": "Beverage",
+    "calories": 60,
+    "protein": 3.0,
+    "carbs": 6.0,
+    "fat": 3.0
+  },
+  "BV005": {
+    "food_name": "☕ Café Latte (Milk-Heavy Coffee)",
+    "category": "Beverage",
+    "calories": 65,
+    "protein": 3.5,
+    "carbs": 7.0,
+    "fat": 3.0
+  },
+  "BV006": {
+    "food_name": "☕ Flat White (Flat White)",
+    "category": "Beverage",
+    "calories": 70,
+    "protein": 3.5,
+    "carbs": 7.0,
+    "fat": 3.5
+  },
+  "BV007": {
+    "food_name": "🍫 Café Mocha (Chocolate Coffee)",
+    "category": "Beverage",
+    "calories": 85,
+    "protein": 3.0,
+    "carbs": 12.0,
+    "fat": 3.0
+  },
+  "BV008": {
+    "food_name": "☕ Espresso Macchiato (Macchiato)",
+    "category": "Beverage",
+    "calories": 20,
+    "protein": 1.0,
+    "carbs": 2.0,
+    "fat": 1.0
+  },
+  "BV009": {
+    "food_name": "☕ Cortado (Cortado)",
+    "category": "Beverage",
+    "calories": 25,
+    "protein": 1.5,
+    "carbs": 2.5,
+    "fat": 1.0
+  },
+  "BV010": {
+    "food_name": "🍦 Vienna Coffee (Whipped Cream Coffee)",
+    "category": "Beverage",
+    "calories": 120,
+    "protein": 2.0,
+    "carbs": 10.0,
+    "fat": 8.0
+  },
+  "BV011": {
+    "food_name": "☕ Ristretto (Intense Espresso Shot)",
+    "category": "Beverage",
+    "calories": 15,
+    "protein": 0.3,
+    "carbs": 2.5,
+    "fat": 0.0
+  },
+  "BV012": {
+    "food_name": "☕ Lungo (Long-Pull Espresso)",
+    "category": "Beverage",
+    "calories": 10,
+    "protein": 0.2,
+    "carbs": 1.8,
+    "fat": 0.0
+  },
+  "BV013": {
+    "food_name": "🍨 Affogato (Espresso over Ice Cream)",
+    "category": "Beverage",
+    "calories": 150,
+    "protein": 3.0,
+    "carbs": 20.0,
+    "fat": 7.0
+  },
+  "BV014": {
+    "food_name": "☕ South Indian Filter Coffee (Filter Kaapi)",
+    "category": "Beverage",
+    "calories": 80,
+    "protein": 2.0,
+    "carbs": 12.0,
+    "fat": 2.0
+  },
+  "BV015": {
+    "food_name": "☕ Frothy Street-Style Beaten Coffee (Pheti Hui Coffee)",
+    "category": "Beverage",
+    "calories": 90,
+    "protein": 2.0,
+    "carbs": 14.0,
+    "fat": 2.0
+  },
+  "BV016": {
+    "food_name": "🍂 Saffron Latte (Kesar Cafe Latte)",
+    "category": "Beverage",
+    "calories": 95,
+    "protein": 3.0,
+    "carbs": 14.0,
+    "fat": 3.0
+  },
+  "BV017": {
+    "food_name": "🌱 Cardamom Cappuccino (Elaichi Cappuccino)",
+    "category": "Beverage",
+    "calories": 85,
+    "protein": 3.0,
+    "carbs": 12.0,
+    "fat": 3.0
+  },
+  "BV018": {
+    "food_name": "🪵 Jaggery Latte (Gur Wali Coffee)",
+    "category": "Beverage",
+    "calories": 100,
+    "protein": 3.0,
+    "carbs": 15.0,
+    "fat": 3.0
+  },
+  "BV019": {
+    "food_name": "🌹 Rose Latte (Gulabi Latte)",
+    "category": "Beverage",
+    "calories": 95,
+    "protein": 3.0,
+    "carbs": 14.0,
+    "fat": 3.0
+  },
+  "BV020": {
+    "food_name": "☕ Monsoon Malabar Pour-Over (Regional Specialty Black Coffee)",
+    "category": "Beverage",
+    "calories": 10,
+    "protein": 0.3,
+    "carbs": 2.0,
+    "fat": 0.0
+  },
+  "BV021": {
+    "food_name": "☕ Attikan Estate Brew (Single-Origin French Press)",
+    "category": "Beverage",
+    "calories": 12,
+    "protein": 0.3,
+    "carbs": 2.0,
+    "fat": 0.0
+  },
+  "BV022": {
+    "food_name": "🧊 Classic Iced Americano (Chilled Black Coffee)",
+    "category": "Beverage",
+    "calories": 5,
+    "protein": 0.2,
+    "carbs": 1.0,
+    "fat": 0.0
+  },
+  "BV023": {
+    "food_name": "🧊 Iced Latte (Chilled Milk Coffee)",
+    "category": "Beverage",
+    "calories": 60,
+    "protein": 3.0,
+    "carbs": 7.0,
+    "fat": 2.0
+  },
+  "BV024": {
+    "food_name": "🥤 Classic Cold Coffee (Thick Cold Coffee)",
+    "category": "Beverage",
+    "calories": 90,
+    "protein": 3.0,
+    "carbs": 14.0,
+    "fat": 2.0
+  },
+  "BV025": {
+    "food_name": "🍨 Cold Coffee with Vanilla Ice Cream (Ice Cream Wali Cold Coffee)",
+    "category": "Beverage",
+    "calories": 120,
+    "protein": 3.0,
+    "carbs": 18.0,
+    "fat": 4.0
+  },
+  "BV026": {
+    "food_name": "🧊 Iced Café Mocha (Chilled Chocolate Coffee)",
+    "category": "Beverage",
+    "calories": 95,
+    "protein": 3.0,
+    "carbs": 14.0,
+    "fat": 3.0
+  },
+  "BV027": {
+    "food_name": "🥤 Vietnamese Iced Coffee (Condensed Milk Coffee)",
+    "category": "Beverage",
+    "calories": 120,
+    "protein": 2.0,
+    "carbs": 20.0,
+    "fat": 3.0
+  },
+  "BV028": {
+    "food_name": "🥤 Frappé (Frothy Blended Cold Coffee)",
+    "category": "Beverage",
+    "calories": 110,
+    "protein": 2.0,
+    "carbs": 18.0,
+    "fat": 3.0
+  },
+  "BV029": {
+    "food_name": "🌰 Hazelnut Cold Coffee (Hazelnut Cold Coffee)",
+    "category": "Beverage",
+    "calories": 115,
+    "protein": 3.0,
+    "carbs": 16.0,
+    "fat": 4.0
+  },
+  "BV030": {
+    "food_name": "🥤 Irish Cream Cold Coffee (Irish Flavor Cold Coffee)",
+    "category": "Beverage",
+    "calories": 120,
+    "protein": 3.0,
+    "carbs": 16.0,
+    "fat": 4.0
+  },
+  "BV031": {
+    "food_name": "🍯 Caramel Macchiato (Iced) (Caramel Iced Coffee)",
+    "category": "Beverage",
+    "calories": 125,
+    "protein": 3.0,
+    "carbs": 18.0,
+    "fat": 4.0
+  },
+  "BV032": {
+    "food_name": "🍰 Tiramisu Cold Coffee (Dessert-Flavored Cold Coffee)",
+    "category": "Beverage",
+    "calories": 130,
+    "protein": 3.0,
+    "carbs": 20.0,
+    "fat": 4.0
+  }
+}
+

@@ -1,0 +1,1460 @@
+{
+  "amaranth seed, black (amaranthus cruentus)": {
+    "protein": 14.59,
+    "fat": 5.74,
+    "carbs": 59.98,
+    "calories": 356.12
+  },
+  "quinoa (chenopodium quinoa)": {
+    "protein": 13.11,
+    "fat": 5.5,
+    "carbs": 53.65,
+    "calories": 328.39
+  },
+  "cowpea, white (vigna catjang)": {
+    "protein": 21.25,
+    "fat": 1.14,
+    "carbs": 53.77,
+    "calories": 320.27
+  },
+  "field bean, black (phaseolus vulgaris)": {
+    "protein": 19.93,
+    "fat": 0.92,
+    "carbs": 43.46,
+    "calories": 276.05
+  },
+  "field bean, brown (phaseolus vulgaris)": {
+    "protein": 19.9,
+    "fat": 0.98,
+    "carbs": 45.24,
+    "calories": 282.98
+  },
+  "lentil whole, yellowish (lens culinaris)": {
+    "protein": 22.87,
+    "fat": 0.61,
+    "carbs": 47.91,
+    "calories": 297.8
+  },
+  "rajmah, black (phaseolus vulgaris)": {
+    "protein": 19.01,
+    "fat": 1.62,
+    "carbs": 49.59,
+    "calories": 298.04
+  },
+  "ricebean (vigna umbellata )": {
+    "protein": 19.97,
+    "fat": 0.74,
+    "carbs": 51.26,
+    "calories": 302.34
+  },
+  "soya bean, white (glycine max)": {
+    "protein": 37.8,
+    "fat": 19.42,
+    "carbs": 10.16,
+    "calories": 377.39
+  },
+  "agathi leaves (sesbania grandiflora)": {
+    "protein": 8.01,
+    "fat": 1.35,
+    "carbs": 5.21,
+    "calories": 70.51
+  },
+  "amaranth leaves, red (amaranthus gangeticus)": {
+    "protein": 3.93,
+    "fat": 0.63,
+    "carbs": 2.37,
+    "calories": 33.46
+  },
+  "amaranth spinosus, leaves, red and green mix (amaranthus spinosus)": {
+    "protein": 2.8,
+    "fat": 0.34,
+    "carbs": 1.45,
+    "calories": 23.66
+  },
+  "basella leaves (basella alba)": {
+    "protein": 1.57,
+    "fat": 0.45,
+    "carbs": 2.01,
+    "calories": 19.6
+  },
+  "bathua leaves (chenopodium album)": {
+    "protein": 2.5,
+    "fat": 0.44,
+    "carbs": 2.56,
+    "calories": 27.72
+  },
+  "brussels sprouts (brassica oleracea var. gemmifera)": {
+    "protein": 4.26,
+    "fat": 0.5,
+    "carbs": 5.09,
+    "calories": 44.22
+  },
+  "cabbage, chinese (brassica rupa)": {
+    "protein": 1.58,
+    "fat": 0.13,
+    "carbs": 2.36,
+    "calories": 17.93
+  },
+  "cabbage, collard greens (brassica oleracea var. viridis)": {
+    "protein": 3.63,
+    "fat": 0.27,
+    "carbs": 2.79,
+    "calories": 30.11
+  },
+  "cabbage, violet (brassica oleracea var. capitata f. rubra)": {
+    "protein": 1.39,
+    "fat": 0.21,
+    "carbs": 3.54,
+    "calories": 23.18
+  },
+  "garden cress (lepidium sativum)": {
+    "protein": 5.62,
+    "fat": 0.8,
+    "carbs": 4.48,
+    "calories": 49.71
+  },
+  "gogu leaves, red (hibiscus cannabinus)": {
+    "protein": 1.85,
+    "fat": 1.07,
+    "carbs": 4.24,
+    "calories": 36.57
+  },
+  "knol-khol, leaves (brassica oleracea var. gongylodes)": {
+    "protein": 3.12,
+    "fat": 0.35,
+    "carbs": 6.16,
+    "calories": 42.54
+  },
+  "pak choi leaves (brassica rapa var. chinensis)": {
+    "protein": 1.41,
+    "fat": 0.25,
+    "carbs": 1.78,
+    "calories": 16.01
+  },
+  "ponnaganni (alternanthera sessilis)": {
+    "protein": 5.29,
+    "fat": 0.71,
+    "carbs": 5.17,
+    "calories": 50.91
+  },
+  "rumex leaves (rumex patientia)": {
+    "protein": 1.62,
+    "fat": 0.33,
+    "carbs": 2.33,
+    "calories": 19.6
+  },
+  "bamboo shoot, tender (bambusa vulgaris)": {
+    "protein": 1.33,
+    "fat": 0.35,
+    "carbs": 1.67,
+    "calories": 16.25
+  },
+  "bitter gourd, jagged, smooth ridges, elongate (momordica charantia)": {
+    "protein": 1.61,
+    "fat": 0.26,
+    "carbs": 2.29,
+    "calories": 19.36
+  },
+  "bottle gourd, elongate, dark green (lagenaria vulgaris)": {
+    "protein": 0.49,
+    "fat": 0.13,
+    "carbs": 2.25,
+    "calories": 12.91
+  },
+  "brinjal-1 (solanum melongena)": {
+    "protein": 1.77,
+    "fat": 0.39,
+    "carbs": 3.49,
+    "calories": 27.25
+  },
+  "brinjal-2 (solanum melongena)": {
+    "protein": 1.82,
+    "fat": 0.34,
+    "carbs": 2.71,
+    "calories": 23.66
+  },
+  "brinjal-3 (solanum melongena)": {
+    "protein": 1.36,
+    "fat": 0.33,
+    "carbs": 3.38,
+    "calories": 24.38
+  },
+  "brinjal-6 (solanum melongena)": {
+    "protein": 1.46,
+    "fat": 0.29,
+    "carbs": 3.29,
+    "calories": 23.18
+  },
+  "brinjal-7 (solanum melongena)": {
+    "protein": 1.4,
+    "fat": 0.37,
+    "carbs": 3.1,
+    "calories": 23.42
+  },
+  "brinjal-9 (solanum melongena)": {
+    "protein": 1.47,
+    "fat": 0.35,
+    "carbs": 3.52,
+    "calories": 25.33
+  },
+  "brinjal-10 (solanum melongena)": {
+    "protein": 1.68,
+    "fat": 0.25,
+    "carbs": 4.08,
+    "calories": 27.72
+  },
+  "brinjal-12 (solanum melongena)": {
+    "protein": 1.6,
+    "fat": 0.27,
+    "carbs": 2.73,
+    "calories": 22.23
+  },
+  "brinjal-13 (solanum melongena)": {
+    "protein": 1.49,
+    "fat": 0.31,
+    "carbs": 4.51,
+    "calories": 29.64
+  },
+  "brinjal-16 (solanum melongena)": {
+    "protein": 1.26,
+    "fat": 0.34,
+    "carbs": 3.46,
+    "calories": 24.62
+  },
+  "brinjal-17 (solanum melongena)": {
+    "protein": 1.18,
+    "fat": 0.36,
+    "carbs": 2.89,
+    "calories": 21.75
+  },
+  "brinjal-21 (solanum melongena)": {
+    "protein": 1.36,
+    "fat": 0.35,
+    "carbs": 3.93,
+    "calories": 27.01
+  },
+  "colocasia, stem, black (colocasia antiquorum)": {
+    "protein": 0.76,
+    "fat": 0.34,
+    "carbs": 3.83,
+    "calories": 23.9
+  },
+  "cucumber, orange, round (cucumis sativus)": {
+    "protein": 0.98,
+    "fat": 0.24,
+    "carbs": 3.01,
+    "calories": 19.6
+  },
+  "field beans, tender, broad (vicia faba)": {
+    "protein": 3.06,
+    "fat": 0.64,
+    "carbs": 2.75,
+    "calories": 30.83
+  },
+  "french beans, hybrid (phaseolus vulgaris)": {
+    "protein": 2.12,
+    "fat": 0.19,
+    "carbs": 2.63,
+    "calories": 22.23
+  },
+  "kovai, small (coccinia cordifolia)": {
+    "protein": 1.22,
+    "fat": 0.24,
+    "carbs": 2.41,
+    "calories": 19.12
+  },
+  "pumpkin, green, cylindrical (cucurbita maxima)": {
+    "protein": 0.87,
+    "fat": 0.18,
+    "carbs": 4.22,
+    "calories": 24.62
+  },
+  "red gram, tender, fresh (cajanus cajan)": {
+    "protein": 8.09,
+    "fat": 0.92,
+    "carbs": 19.46,
+    "calories": 124.28
+  },
+  "snake gourd, long, dark green (trichosanthes anguina)": {
+    "protein": 0.89,
+    "fat": 0.25,
+    "carbs": 1.23,
+    "calories": 11.95
+  },
+  "snake gourd, short (trichosanthes anguina)": {
+    "protein": 0.54,
+    "fat": 0.26,
+    "carbs": 2.15,
+    "calories": 14.58
+  },
+  "zucchini, green (cucurbita pepo)": {
+    "protein": 1.1,
+    "fat": 0.51,
+    "carbs": 2.33,
+    "calories": 20.08
+  },
+  "zucchini, yellow (cucurbita pepo)": {
+    "protein": 1.31,
+    "fat": 0.44,
+    "carbs": 2.2,
+    "calories": 18.88
+  },
+  "apple, small, kashmir (malus sylvestris)": {
+    "protein": 0.27,
+    "fat": 0.6,
+    "carbs": 13.99,
+    "calories": 64.29
+  },
+  "avocado fruit (persea americana)": {
+    "protein": 2.95,
+    "fat": 13.86,
+    "carbs": 1.75,
+    "calories": 144.36
+  },
+  "bael fruit (aegle marmelos)": {
+    "protein": 2.63,
+    "fat": 0.57,
+    "carbs": 28.21,
+    "calories": 135.99
+  },
+  "banana, ripe, montham (musa x paradisiaca)": {
+    "protein": 1.25,
+    "fat": 0.32,
+    "carbs": 24.95,
+    "calories": 110.66
+  },
+  "banana, ripe, poovam (musa x paradisiaca)": {
+    "protein": 1.49,
+    "fat": 0.35,
+    "carbs": 23.41,
+    "calories": 106.36
+  },
+  "banana, ripe, red (musa x paradisiaca)": {
+    "protein": 1.29,
+    "fat": 0.29,
+    "carbs": 25.21,
+    "calories": 111.62
+  },
+  "currants, black (ribes nigrum)": {
+    "protein": 1.51,
+    "fat": 0.53,
+    "carbs": 9.93,
+    "calories": 54.25
+  },
+  "custard apple (annona squamosa)": {
+    "protein": 1.62,
+    "fat": 0.67,
+    "carbs": 20.38,
+    "calories": 98.95
+  },
+  "dates, dry, dark brown (phoenix dactylifera)": {
+    "protein": 2.38,
+    "fat": 0.35,
+    "carbs": 72.67,
+    "calories": 310.95
+  },
+  "dates, processed (phoenix dactylifera)": {
+    "protein": 1.18,
+    "fat": 0.41,
+    "carbs": 67.95,
+    "calories": 286.09
+  },
+  "jambu fruit, ripe (syzygium cumini)": {
+    "protein": 0.82,
+    "fat": 0.17,
+    "carbs": 12.3,
+    "calories": 56.17
+  },
+  "karonda fruit (carissa carandas)": {
+    "protein": 1.15,
+    "fat": 1.67,
+    "carbs": 2.87,
+    "calories": 33.7
+  },
+  "mango, ripe, gulabkhas (mangifera indica)": {
+    "protein": 0.52,
+    "fat": 0.53,
+    "carbs": 10.32,
+    "calories": 49.95
+  },
+  "mango, ripe, neelam (mangifera indica)": {
+    "protein": 0.68,
+    "fat": 0.55,
+    "carbs": 8.21,
+    "calories": 42.54
+  },
+  "mango, ripe, paheri (mangifera indica)": {
+    "protein": 0.68,
+    "fat": 0.58,
+    "carbs": 8.67,
+    "calories": 44.93
+  },
+  "mango, ripe, totapari (mangifera indica)": {
+    "protein": 0.41,
+    "fat": 0.49,
+    "carbs": 12.75,
+    "calories": 59.27
+  },
+  "mangosteen (garcinia mangostana)": {
+    "protein": 0.63,
+    "fat": 0.24,
+    "carbs": 11.41,
+    "calories": 52.34
+  },
+  "manila tamarind (pithecellobium dulce)": {
+    "protein": 3.56,
+    "fat": 1.14,
+    "carbs": 13.54,
+    "calories": 81.74
+  },
+  "palm fruit, tender (borassus flabellifer)": {
+    "protein": 0.5,
+    "fat": 0.12,
+    "carbs": 4.92,
+    "calories": 24.14
+  },
+  "peach (prunus communis)": {
+    "protein": 0.86,
+    "fat": 0.37,
+    "carbs": 7.82,
+    "calories": 40.15
+  },
+  "phalsa (grewia asiatica)": {
+    "protein": 1.66,
+    "fat": 0.14,
+    "carbs": 15.09,
+    "calories": 71.46
+  },
+  "rambutan (nephelium lappaceum)": {
+    "protein": 0.68,
+    "fat": 0.16,
+    "carbs": 16.84,
+    "calories": 73.14
+  },
+  "soursop (annona muricata)": {
+    "protein": 0.74,
+    "fat": 0.94,
+    "carbs": 11.94,
+    "calories": 62.14
+  },
+  "star fruit (averrhoa carambola)": {
+    "protein": 0.79,
+    "fat": 0.39,
+    "carbs": 4.51,
+    "calories": 26.29
+  },
+  "zizyphus (zizyphus jujube)": {
+    "protein": 1.34,
+    "fat": 0.35,
+    "carbs": 9.4,
+    "calories": 48.76
+  },
+  "potato, brown skin, small (solanum tuberosum)": {
+    "protein": 1.35,
+    "fat": 0.22,
+    "carbs": 12.9,
+    "calories": 60.95
+  },
+  "potato, red skin (solanum tuberosum)": {
+    "protein": 1.83,
+    "fat": 0.22,
+    "carbs": 15.43,
+    "calories": 73.14
+  },
+  "radish, round, red skin (raphanus sativus)": {
+    "protein": 0.89,
+    "fat": 0.16,
+    "carbs": 6.07,
+    "calories": 31.07
+  },
+  "radish, round, white skin (raphanus sativus)": {
+    "protein": 0.8,
+    "fat": 0.14,
+    "carbs": 6.13,
+    "calories": 30.83
+  },
+  "water chestnut (eleocharis dulcis)": {
+    "protein": 0.86,
+    "fat": 0.37,
+    "carbs": 21.46,
+    "calories": 95.6
+  },
+  "yam, wild (dioscorea versicolor)": {
+    "protein": 3.07,
+    "fat": 0.3,
+    "carbs": 20.95,
+    "calories": 102.77
+  },
+  "chillies, green-6 (capsicum annum)": {
+    "protein": 3.01,
+    "fat": 0.64,
+    "carbs": 5.31,
+    "calories": 41.83
+  },
+  "chillies, green-7 (capsicum annum)": {
+    "protein": 2.12,
+    "fat": 0.6,
+    "carbs": 5.61,
+    "calories": 38.96
+  },
+  "garlic, single clove, kashmir (allium sativum)": {
+    "protein": 6.12,
+    "fat": 0.16,
+    "carbs": 23.46,
+    "calories": 125.0
+  },
+  "arecanut, fresh (areca catechu)": {
+    "protein": 2.73,
+    "fat": 5.51,
+    "carbs": 45.0,
+    "calories": 244.74
+  },
+  "button mushroom, fresh (agaricus sp.)": {
+    "protein": 3.68,
+    "fat": 0.42,
+    "carbs": 1.98,
+    "calories": 27.49
+  },
+  "chicken mushroom, fresh (lactiporus sp.)": {
+    "protein": 1.84,
+    "fat": 0.25,
+    "carbs": 2.76,
+    "calories": 21.27
+  },
+  "shiitake mushroom, fresh (lentinula sp.)": {
+    "protein": 3.19,
+    "fat": 0.76,
+    "carbs": 8.98,
+    "calories": 58.08
+  },
+  "oyster mushroom, dried (pleurotus sp.)": {
+    "protein": 19.04,
+    "fat": 2.86,
+    "carbs": 33.07,
+    "calories": 243.55
+  },
+  "egg, country hen, whole, raw": {
+    "protein": 13.14,
+    "fat": 13.0,
+    "carbs": 0,
+    "calories": 168.26
+  },
+  "egg, country hen, whole, boiled": {
+    "protein": 14.43,
+    "fat": 14.1,
+    "carbs": 0,
+    "calories": 183.32
+  },
+  "egg, country hen, omlet": {
+    "protein": 14.8,
+    "fat": 16.3,
+    "carbs": 0,
+    "calories": 204.35
+  },
+  "egg, duck, whole, boiled": {
+    "protein": 13.8,
+    "fat": 13.61,
+    "carbs": 0,
+    "calories": 176.39
+  },
+  "egg, duck, whole, raw": {
+    "protein": 14.6,
+    "fat": 13.83,
+    "carbs": 0,
+    "calories": 181.64
+  },
+  "egg, duck, whole, omlet": {
+    "protein": 15.1,
+    "fat": 14.8,
+    "carbs": 0,
+    "calories": 192.16
+  },
+  "egg, quial, whole, raw": {
+    "protein": 12.39,
+    "fat": 11.46,
+    "carbs": 0,
+    "calories": 151.77
+  },
+  "egg, quial, whole, boiled": {
+    "protein": 13.03,
+    "fat": 11.5,
+    "carbs": 0,
+    "calories": 154.64
+  },
+  "poultry, chicken, liver": {
+    "protein": 21.57,
+    "fat": 4.08,
+    "carbs": 0,
+    "calories": 123.8
+  },
+  "poultry, chicken, gizzard": {
+    "protein": 18.22,
+    "fat": 2.07,
+    "carbs": 0,
+    "calories": 92.26
+  },
+  "country hen, leg, with skin": {
+    "protein": 17.01,
+    "fat": 11.73,
+    "carbs": 0,
+    "calories": 172.8
+  },
+  "country hen, thigh, with skin": {
+    "protein": 18.29,
+    "fat": 12.82,
+    "carbs": 0,
+    "calories": 187.62
+  },
+  "country hen, breast, with skin": {
+    "protein": 22.08,
+    "fat": 10.2,
+    "carbs": 0,
+    "calories": 179.97
+  },
+  "country hen, wing, with skin": {
+    "protein": 18.65,
+    "fat": 12.09,
+    "carbs": 0,
+    "calories": 182.6
+  },
+  "duck, meat, with skin": {
+    "protein": 19.07,
+    "fat": 6.03,
+    "carbs": 0,
+    "calories": 130.74
+  },
+  "emu, meat, skinless": {
+    "protein": 22.65,
+    "fat": 4.62,
+    "carbs": 0,
+    "calories": 132.89
+  },
+  "guinea fowl, meat, with skin": {
+    "protein": 20.52,
+    "fat": 3.24,
+    "carbs": 0,
+    "calories": 112.09
+  },
+  "pigeon, meat, with skin": {
+    "protein": 17.94,
+    "fat": 6.03,
+    "carbs": 0,
+    "calories": 126.2
+  },
+  "quail, meat, skinless": {
+    "protein": 20.92,
+    "fat": 5.95,
+    "carbs": 0,
+    "calories": 137.67
+  },
+  "turkey, leg, with skin": {
+    "protein": 20.3,
+    "fat": 8.15,
+    "carbs": 0,
+    "calories": 154.64
+  },
+  "turkey, thigh, with skin": {
+    "protein": 20.46,
+    "fat": 6.31,
+    "carbs": 0,
+    "calories": 138.86
+  },
+  "turkey, breast, with skin": {
+    "protein": 21.96,
+    "fat": 8.04,
+    "carbs": 0,
+    "calories": 160.37
+  },
+  "turkey, wing, with skin": {
+    "protein": 21.91,
+    "fat": 10.77,
+    "carbs": 0,
+    "calories": 184.27
+  },
+  "goat, testis": {
+    "protein": 12.32,
+    "fat": 2.39,
+    "carbs": 0,
+    "calories": 71.22
+  },
+  "sheep, brain": {
+    "protein": 13.05,
+    "fat": 7.29,
+    "carbs": 0,
+    "calories": 117.59
+  },
+  "sheep, tongue": {
+    "protein": 16.61,
+    "fat": 13.53,
+    "carbs": 0,
+    "calories": 187.14
+  },
+  "sheep, lungs": {
+    "protein": 16.12,
+    "fat": 2.41,
+    "carbs": 0,
+    "calories": 86.76
+  },
+  "sheep, heart": {
+    "protein": 18.19,
+    "fat": 3.66,
+    "carbs": 0,
+    "calories": 106.36
+  },
+  "sheep, tripe": {
+    "protein": 16.76,
+    "fat": 4.05,
+    "carbs": 0,
+    "calories": 103.97
+  },
+  "sheep, spleen": {
+    "protein": 16.02,
+    "fat": 3.02,
+    "carbs": 0,
+    "calories": 91.78
+  },
+  "sheep, kidneys": {
+    "protein": 16.22,
+    "fat": 2.92,
+    "carbs": 0,
+    "calories": 91.78
+  },
+  "calf, shoulder": {
+    "protein": 20.98,
+    "fat": 7.47,
+    "carbs": 0,
+    "calories": 151.29
+  },
+  "calf, chops": {
+    "protein": 22.47,
+    "fat": 3.85,
+    "carbs": 0,
+    "calories": 125.24
+  },
+  "calf, round (leg)": {
+    "protein": 21.1,
+    "fat": 6.92,
+    "carbs": 0,
+    "calories": 146.99
+  },
+  "calf, brain": {
+    "protein": 9.84,
+    "fat": 7.6,
+    "carbs": 0,
+    "calories": 107.07
+  },
+  "calf, tongue": {
+    "protein": 17.78,
+    "fat": 11.76,
+    "carbs": 0,
+    "calories": 176.15
+  },
+  "calf, heart": {
+    "protein": 18.84,
+    "fat": 3.75,
+    "carbs": 0,
+    "calories": 109.7
+  },
+  "calf, liver": {
+    "protein": 21.02,
+    "fat": 3.95,
+    "carbs": 0,
+    "calories": 120.22
+  },
+  "calf, spleen": {
+    "protein": 17.71,
+    "fat": 2.12,
+    "carbs": 0,
+    "calories": 90.58
+  },
+  "calf, kidneys": {
+    "protein": 15.16,
+    "fat": 3.5,
+    "carbs": 0,
+    "calories": 92.5
+  },
+  "mithun, shoulder": {
+    "protein": 19.05,
+    "fat": 11.14,
+    "carbs": 0,
+    "calories": 175.91
+  },
+  "mithun, chops": {
+    "protein": 18.19,
+    "fat": 6.12,
+    "carbs": 0,
+    "calories": 128.11
+  },
+  "mithun, round (leg)": {
+    "protein": 19.61,
+    "fat": 4.1,
+    "carbs": 0,
+    "calories": 115.92
+  },
+  "pork, stomach": {
+    "protein": 15.36,
+    "fat": 7.81,
+    "carbs": 0,
+    "calories": 131.45
+  },
+  "pork, tube (small intestine)": {
+    "protein": 14.96,
+    "fat": 8.98,
+    "carbs": 0,
+    "calories": 140.3
+  },
+  "hare, shoulder": {
+    "protein": 21.13,
+    "fat": 6.58,
+    "carbs": 0,
+    "calories": 144.12
+  },
+  "hare, chops": {
+    "protein": 20.62,
+    "fat": 2.55,
+    "carbs": 0,
+    "calories": 106.36
+  },
+  "hare, leg": {
+    "protein": 20.52,
+    "fat": 4.16,
+    "carbs": 0,
+    "calories": 120.22
+  },
+  "rabbit, shoulder": {
+    "protein": 20.01,
+    "fat": 7.96,
+    "carbs": 0,
+    "calories": 151.77
+  },
+  "rabbit, chops": {
+    "protein": 22.61,
+    "fat": 4.88,
+    "carbs": 0,
+    "calories": 135.04
+  },
+  "rabbit, leg": {
+    "protein": 21.31,
+    "fat": 5.99,
+    "carbs": 0,
+    "calories": 139.58
+  },
+  "allathi (elops machnata)": {
+    "protein": 21.77,
+    "fat": 0.98,
+    "carbs": 0,
+    "calories": 97.04
+  },
+  "anchovy (stolephorus indicus)": {
+    "protein": 19.88,
+    "fat": 0.78,
+    "carbs": 0,
+    "calories": 87.72
+  },
+  "ari fish (aprion virescens )": {
+    "protein": 22.01,
+    "fat": 1.11,
+    "carbs": 0,
+    "calories": 99.19
+  },
+  "betki (lates calcarifer)": {
+    "protein": 15.28,
+    "fat": 0.29,
+    "carbs": 0,
+    "calories": 67.88
+  },
+  "black snapper (macolor niger)": {
+    "protein": 19.5,
+    "fat": 1.24,
+    "carbs": 0,
+    "calories": 90.11
+  },
+  "bombay duck (harpadon nehereus)": {
+    "protein": 13.53,
+    "fat": 1.03,
+    "carbs": 0,
+    "calories": 68.59
+  },
+  "cat fish (tachysurus thalassinus)": {
+    "protein": 22.18,
+    "fat": 2.13,
+    "carbs": 0,
+    "calories": 108.99
+  },
+  "chappal (aluterus monoceros )": {
+    "protein": 17.17,
+    "fat": 0.67,
+    "carbs": 0,
+    "calories": 75.76
+  },
+  "chelu (elagatis bipinnulata)": {
+    "protein": 20.02,
+    "fat": 0.7,
+    "carbs": 0,
+    "calories": 87.48
+  },
+  "chembali (lutjanus quinquelineatus)": {
+    "protein": 20.06,
+    "fat": 1.77,
+    "carbs": 0,
+    "calories": 97.04
+  },
+  "eri meen (pristipomoides filamentosus)": {
+    "protein": 22.3,
+    "fat": 2.02,
+    "carbs": 0,
+    "calories": 108.51
+  },
+  "gobro (epinephelus diacanthus)": {
+    "protein": 19.37,
+    "fat": 0.88,
+    "carbs": 0,
+    "calories": 86.52
+  },
+  "guitar fish (rhinobatus prahli)": {
+    "protein": 22.56,
+    "fat": 0.44,
+    "carbs": 0,
+    "calories": 95.6
+  },
+  "hilsa (tenualosa ilisha)": {
+    "protein": 21.8,
+    "fat": 18.49,
+    "carbs": 0,
+    "calories": 258.84
+  },
+  "jallal (arius sp.)": {
+    "protein": 21.55,
+    "fat": 1.46,
+    "carbs": 0,
+    "calories": 100.38
+  },
+  "jathi vela meen (lethrinus lentjan)": {
+    "protein": 22.45,
+    "fat": 1.92,
+    "carbs": 0,
+    "calories": 108.27
+  },
+  "kadal bral (synodus indicus)": {
+    "protein": 18.72,
+    "fat": 1.34,
+    "carbs": 0,
+    "calories": 87.95
+  },
+  "kadali (nemipterus mesoprion)": {
+    "protein": 22.07,
+    "fat": 4.2,
+    "carbs": 0,
+    "calories": 126.67
+  },
+  "kalamaara (leptomelanosoma indicum)": {
+    "protein": 20.89,
+    "fat": 4.54,
+    "carbs": 0,
+    "calories": 125.0
+  },
+  "kalava (epinephelus coioides)": {
+    "protein": 19.38,
+    "fat": 1.2,
+    "carbs": 0,
+    "calories": 89.39
+  },
+  "kanamayya (lutjanus rivulatus)": {
+    "protein": 20.19,
+    "fat": 0.65,
+    "carbs": 0,
+    "calories": 87.72
+  },
+  "karimeen (etroplus suratensis)": {
+    "protein": 19.68,
+    "fat": 1.38,
+    "carbs": 0,
+    "calories": 92.26
+  },
+  "karnagawala (anchoa hepsetus)": {
+    "protein": 19.52,
+    "fat": 0.84,
+    "carbs": 0,
+    "calories": 86.76
+  },
+  "kayrai (thunnus albacores)": {
+    "protein": 20.15,
+    "fat": 3.0,
+    "carbs": 0,
+    "calories": 108.51
+  },
+  "kiriyan (atule mate)": {
+    "protein": 22.49,
+    "fat": 4.7,
+    "carbs": 0,
+    "calories": 132.89
+  },
+  "kite fish (mobula kuhlii)": {
+    "protein": 23.07,
+    "fat": 0.56,
+    "carbs": 0,
+    "calories": 98.71
+  },
+  "korka (terapon jarbua)": {
+    "protein": 23.72,
+    "fat": 3.36,
+    "carbs": 0,
+    "calories": 126.2
+  },
+  "kulam paarai (carangoides fulvoguttatus)": {
+    "protein": 21.62,
+    "fat": 3.6,
+    "carbs": 0,
+    "calories": 119.74
+  },
+  "maagaa (polynemus plebeius)": {
+    "protein": 20.11,
+    "fat": 0.67,
+    "carbs": 0,
+    "calories": 87.48
+  },
+  "manda clathi (naso reticulatus)": {
+    "protein": 21.27,
+    "fat": 1.0,
+    "carbs": 0,
+    "calories": 95.12
+  },
+  "matha (acanthurus mata)": {
+    "protein": 21.17,
+    "fat": 0.79,
+    "carbs": 0,
+    "calories": 92.97
+  },
+  "milk fish (chanos chanos)": {
+    "protein": 23.66,
+    "fat": 1.09,
+    "carbs": 0,
+    "calories": 105.64
+  },
+  "moon fish (mene maculata)": {
+    "protein": 20.74,
+    "fat": 4.69,
+    "carbs": 0,
+    "calories": 125.72
+  },
+  "mural (tylosurus crocodilus crocodilus)": {
+    "protein": 19.04,
+    "fat": 0.58,
+    "carbs": 0,
+    "calories": 82.46
+  },
+  "myil meen (istiophorus platypterus)": {
+    "protein": 22.89,
+    "fat": 0.56,
+    "carbs": 0,
+    "calories": 97.99
+  },
+  "nalla bontha (epinephelus sp.)": {
+    "protein": 19.82,
+    "fat": 0.72,
+    "carbs": 0,
+    "calories": 87.0
+  },
+  "narba (caranx sexfasciatus)": {
+    "protein": 21.95,
+    "fat": 1.6,
+    "carbs": 0,
+    "calories": 103.25
+  },
+  "paarai (caranx heberi)": {
+    "protein": 21.58,
+    "fat": 1.84,
+    "carbs": 0,
+    "calories": 103.97
+  },
+  "padayappa (canthidermis maculata)": {
+    "protein": 19.7,
+    "fat": 0.69,
+    "carbs": 0,
+    "calories": 86.04
+  },
+  "pali kora (panna microdon)": {
+    "protein": 19.25,
+    "fat": 1.81,
+    "carbs": 0,
+    "calories": 94.17
+  },
+  "pambada (lepturacanthus savala)": {
+    "protein": 21.95,
+    "fat": 4.44,
+    "carbs": 0,
+    "calories": 128.35
+  },
+  "pandukopa (pseudosciaena manchurica)": {
+    "protein": 19.73,
+    "fat": 0.65,
+    "carbs": 0,
+    "calories": 86.04
+  },
+  "parava (lactarius lactarius)": {
+    "protein": 21.5,
+    "fat": 2.74,
+    "carbs": 0,
+    "calories": 111.62
+  },
+  "parcus (psettodes erumei)": {
+    "protein": 19.87,
+    "fat": 0.62,
+    "carbs": 0,
+    "calories": 86.28
+  },
+  "parrot fish (scarus ghobban)": {
+    "protein": 20.82,
+    "fat": 0.57,
+    "carbs": 0,
+    "calories": 89.63
+  },
+  "perinkilichai (pinjalo pinjalo)": {
+    "protein": 20.89,
+    "fat": 0.87,
+    "carbs": 0,
+    "calories": 92.5
+  },
+  "piranha (pygopritis sp.)": {
+    "protein": 20.46,
+    "fat": 5.43,
+    "carbs": 0,
+    "calories": 131.21
+  },
+  "pomfret, black (parastromateus niger)": {
+    "protein": 18.91,
+    "fat": 4.83,
+    "carbs": 0,
+    "calories": 123.09
+  },
+  "pomfret, snub nose (trachinotus blochii)": {
+    "protein": 21.05,
+    "fat": 0.46,
+    "carbs": 0,
+    "calories": 89.63
+  },
+  "pomfret, white (pampus argenteus)": {
+    "protein": 19.02,
+    "fat": 5.12,
+    "carbs": 0,
+    "calories": 122.61
+  },
+  "pranel (gerres sp.)": {
+    "protein": 19.69,
+    "fat": 1.89,
+    "carbs": 0,
+    "calories": 96.8
+  },
+  "pulli paarai (gnathanodon speciosus)": {
+    "protein": 20.06,
+    "fat": 1.55,
+    "carbs": 0,
+    "calories": 95.36
+  },
+  "raai fish (lobotes surinamensis)": {
+    "protein": 21.61,
+    "fat": 1.69,
+    "carbs": 0,
+    "calories": 102.77
+  },
+  "raai vanthu (epinephelus chlorostigma)": {
+    "protein": 19.39,
+    "fat": 2.17,
+    "carbs": 0,
+    "calories": 97.99
+  },
+  "rani (pink perch)": {
+    "protein": 18.83,
+    "fat": 1.49,
+    "carbs": 0,
+    "calories": 90.11
+  },
+  "ray fish, bow head, spotted (rhina ancylostoma)": {
+    "protein": 19.03,
+    "fat": 0.7,
+    "carbs": 0,
+    "calories": 83.41
+  },
+  "red snapper (lutjanus argentimaculatus)": {
+    "protein": 22.79,
+    "fat": 1.34,
+    "carbs": 0,
+    "calories": 104.45
+  },
+  "red snapper, small (priacanthus hamrur)": {
+    "protein": 21.5,
+    "fat": 2.3,
+    "carbs": 0,
+    "calories": 107.79
+  },
+  "sadaya (platax orbicularis )": {
+    "protein": 20.68,
+    "fat": 2.97,
+    "carbs": 0,
+    "calories": 110.42
+  },
+  "salmon (salmo salar)": {
+    "protein": 20.97,
+    "fat": 9.86,
+    "carbs": 0,
+    "calories": 172.32
+  },
+  "sangada (nemipterus japonicus)": {
+    "protein": 20.26,
+    "fat": 2.67,
+    "carbs": 0,
+    "calories": 105.88
+  },
+  "sankata paarai (caranx ignobilis)": {
+    "protein": 21.87,
+    "fat": 1.68,
+    "carbs": 0,
+    "calories": 103.73
+  },
+  "sardine (sardinella longiceps)": {
+    "protein": 17.91,
+    "fat": 8.99,
+    "carbs": 0,
+    "calories": 152.25
+  },
+  "shark (carcharhinus sorrah)": {
+    "protein": 21.6,
+    "fat": 0.83,
+    "carbs": 0,
+    "calories": 95.12
+  },
+  "shark, hammer head (sphyrna mokarran)": {
+    "protein": 23.4,
+    "fat": 0.8,
+    "carbs": 0,
+    "calories": 103.25
+  },
+  "shark, spotted (stegostoma fasciatum)": {
+    "protein": 20.95,
+    "fat": 0.75,
+    "carbs": 0,
+    "calories": 91.78
+  },
+  "silan (silonia silondia)": {
+    "protein": 22.72,
+    "fat": 6.68,
+    "carbs": 0,
+    "calories": 151.29
+  },
+  "silk fish (beryx sp.)": {
+    "protein": 20.65,
+    "fat": 1.53,
+    "carbs": 0,
+    "calories": 97.51
+  },
+  "silver carp (hypophthalmichthys molitrix)": {
+    "protein": 21.71,
+    "fat": 5.17,
+    "carbs": 0,
+    "calories": 132.65
+  },
+  "sole fish (cynoglossus arel)": {
+    "protein": 19.05,
+    "fat": 1.18,
+    "carbs": 0,
+    "calories": 87.72
+  },
+  "stingray (dasyatis pastinaca)": {
+    "protein": 23.98,
+    "fat": 0.68,
+    "carbs": 0,
+    "calories": 97.51
+  },
+  "tarlava (drepane punctata)": {
+    "protein": 21.72,
+    "fat": 1.2,
+    "carbs": 0,
+    "calories": 98.95
+  },
+  "tholam (plectorhinchus schotaf)": {
+    "protein": 20.78,
+    "fat": 2.13,
+    "carbs": 0,
+    "calories": 103.25
+  },
+  "tilapia (oreochromis niloticus)": {
+    "protein": 18.48,
+    "fat": 1.08,
+    "carbs": 0,
+    "calories": 83.41
+  },
+  "tuna, striped (katsuwonus pelamis)": {
+    "protein": 21.28,
+    "fat": 1.12,
+    "carbs": 0,
+    "calories": 96.32
+  },
+  "valava (chirocentrus nudus)": {
+    "protein": 21.8,
+    "fat": 1.06,
+    "carbs": 0,
+    "calories": 97.99
+  },
+  "vanjaram (scomberomorus commerson )": {
+    "protein": 22.28,
+    "fat": 5.18,
+    "carbs": 0,
+    "calories": 136.23
+  },
+  "vela meen (aprion virescens)": {
+    "protein": 22.16,
+    "fat": 4.34,
+    "carbs": 0,
+    "calories": 128.35
+  },
+  "vora (siganus javus)": {
+    "protein": 20.14,
+    "fat": 2.14,
+    "carbs": 0,
+    "calories": 100.86
+  },
+  "whale shark (galeocerdo cuvier)": {
+    "protein": 21.83,
+    "fat": 0.82,
+    "carbs": 0,
+    "calories": 95.84
+  },
+  "xiphinis (xiphias gladius)": {
+    "protein": 19.82,
+    "fat": 0.88,
+    "carbs": 0,
+    "calories": 88.43
+  },
+  "eggs, cat fish (ompok bimaculatus)": {
+    "protein": 24.68,
+    "fat": 5.28,
+    "carbs": 0,
+    "calories": 143.4
+  },
+  "crab (menippe mercenaria)": {
+    "protein": 10.23,
+    "fat": 1.41,
+    "carbs": 0,
+    "calories": 81.98
+  },
+  "crab, sea (portunus sanguinolentus)": {
+    "protein": 15.36,
+    "fat": 0.6,
+    "carbs": 0,
+    "calories": 67.64
+  },
+  "lobster, brown (thenus orientalis)": {
+    "protein": 15.96,
+    "fat": 0.56,
+    "carbs": 0,
+    "calories": 69.79
+  },
+  "lobster, king size (thenus orientalis)": {
+    "protein": 18.54,
+    "fat": 0.78,
+    "carbs": 0,
+    "calories": 89.63
+  },
+  "mud crab (scylla tranquebarica)": {
+    "protein": 10.0,
+    "fat": 0.55,
+    "carbs": 0,
+    "calories": 45.41
+  },
+  "oyster (crassostrea sp.)": {
+    "protein": 9.51,
+    "fat": 2.44,
+    "carbs": 0,
+    "calories": 60.23
+  },
+  "tiger prawns, brown (solenocera crassicornis)": {
+    "protein": 14.85,
+    "fat": 0.56,
+    "carbs": 0,
+    "calories": 65.25
+  },
+  "tiger prawns, orange (penaeus monodon)": {
+    "protein": 14.25,
+    "fat": 0.74,
+    "carbs": 0,
+    "calories": 64.53
+  },
+  "clam, green shell (perna viridis)": {
+    "protein": 12.14,
+    "fat": 0.98,
+    "carbs": 0,
+    "calories": 58.08
+  },
+  "clam, white shell, ribbed (meretrix meretrix)": {
+    "protein": 11.82,
+    "fat": 1.34,
+    "carbs": 0,
+    "calories": 59.75
+  },
+  "octopus (octopus vulgaris)": {
+    "protein": 14.71,
+    "fat": 1.12,
+    "carbs": 0,
+    "calories": 79.83
+  },
+  "squid, black (loligo sp.)": {
+    "protein": 16.1,
+    "fat": 1.07,
+    "carbs": 0,
+    "calories": 80.07
+  },
+  "squid, hard shell (sepia pharaonis)": {
+    "protein": 16.82,
+    "fat": 0.93,
+    "carbs": 0,
+    "calories": 76.48
+  },
+  "squid, red (loligo duvauceli)": {
+    "protein": 16.25,
+    "fat": 1.44,
+    "carbs": 0,
+    "calories": 78.63
+  },
+  "squid, white, small (uroteuthis duvauceli )": {
+    "protein": 17.41,
+    "fat": 1.15,
+    "carbs": 0,
+    "calories": 84.37
+  },
+  "freshwater eel (anguilla anguilla)": {
+    "protein": 20.41,
+    "fat": 2.63,
+    "carbs": 0,
+    "calories": 107.79
+  },
+  "gold fish (carassius auratus)": {
+    "protein": 16.91,
+    "fat": 2.94,
+    "carbs": 0,
+    "calories": 94.65
+  },
+  "crab (pachygrapsus sp.)": {
+    "protein": 13.23,
+    "fat": 0.89,
+    "carbs": 0,
+    "calories": 78.15
+  },
+  "prawns, big (macrobrachium rosenbergii)": {
+    "protein": 19.24,
+    "fat": 0.52,
+    "carbs": 0,
+    "calories": 90.82
+  },
+  "prawns, small (macrobrachium sp.)": {
+    "protein": 13.07,
+    "fat": 0.78,
+    "carbs": 0,
+    "calories": 70.98
+  },
+  "tiger prawns (macrobrachium sp.)": {
+    "protein": 14.24,
+    "fat": 0.66,
+    "carbs": 0,
+    "calories": 67.88
+  }
+}

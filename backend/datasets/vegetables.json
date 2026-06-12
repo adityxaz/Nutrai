@@ -1,0 +1,1352 @@
+{
+    "VE001": {
+        "food_name": "onion (pyaz)",
+        "calories": 40,
+        "protein": 1.1,
+        "carbs": 9.3,
+        "fat": 0.1,
+        "fiber": 1.7,
+        "sugars": 4.2
+    },
+    "VE002": {
+        "food_name": "potato (aloo)",
+        "calories": 77,
+        "protein": 2.0,
+        "carbs": 17.5,
+        "fat": 0.1,
+        "fiber": 2.2,
+        "sugars": 0.8
+    },
+    "VE003": {
+        "food_name": "tomato (tamatar)",
+        "calories": 18,
+        "protein": 0.9,
+        "carbs": 3.9,
+        "fat": 0.2,
+        "fiber": 1.2,
+        "sugars": 2.6
+    },
+    "VE004": {
+        "food_name": "garlic (lahsun)",
+        "calories": 149,
+        "protein": 6.4,
+        "carbs": 33.1,
+        "fat": 0.5,
+        "fiber": 2.1,
+        "sugars": 1.0
+    },
+    "VE005": {
+        "food_name": "ginger (adrak)",
+        "calories": 80,
+        "protein": 1.8,
+        "carbs": 17.8,
+        "fat": 0.8,
+        "fiber": 2.0,
+        "sugars": 1.7
+    },
+    "VE006": {
+        "food_name": "green chili (hari mirch)",
+        "calories": 40,
+        "protein": 2.0,
+        "carbs": 9.5,
+        "fat": 0.2,
+        "fiber": 1.5,
+        "sugars": 5.0
+    },
+    "VE007": {
+        "food_name": "okra / lady's finger (bhindi)",
+        "calories": 33,
+        "protein": 2.0,
+        "carbs": 7.5,
+        "fat": 0.2,
+        "fiber": 3.2,
+        "sugars": 1.5
+    },
+    "VE008": {
+        "food_name": "eggplant round (baingan)",
+        "calories": 25,
+        "protein": 1.0,
+        "carbs": 6.0,
+        "fat": 0.2,
+        "fiber": 3.0,
+        "sugars": 3.5
+    },
+    "VE009": {
+        "food_name": "eggplant long (chota baingan)",
+        "calories": 25,
+        "protein": 1.0,
+        "carbs": 6.0,
+        "fat": 0.2,
+        "fiber": 3.0,
+        "sugars": 3.5
+    },
+    "VE010": {
+        "food_name": "green peas (matar)",
+        "calories": 81,
+        "protein": 5.4,
+        "carbs": 14.5,
+        "fat": 0.4,
+        "fiber": 5.1,
+        "sugars": 5.7
+    },
+    "VE011": {
+        "food_name": "green bell pepper / capsicum (shimla mirch)",
+        "calories": 20,
+        "protein": 0.9,
+        "carbs": 4.6,
+        "fat": 0.2,
+        "fiber": 1.7,
+        "sugars": 2.4
+    },
+    "VE012": {
+        "food_name": "red bell pepper (lal shimla mirch)",
+        "calories": 31,
+        "protein": 1.0,
+        "carbs": 6.0,
+        "fat": 0.3,
+        "fiber": 2.1,
+        "sugars": 4.2
+    },
+    "VE013": {
+        "food_name": "yellow bell pepper (peeli shimla mirch)",
+        "calories": 27,
+        "protein": 1.0,
+        "carbs": 6.3,
+        "fat": 0.2,
+        "fiber": 0.9,
+        "sugars": 5.0
+    },
+    "VE014": {
+        "food_name": "french beans (beans / phansi)",
+        "calories": 31,
+        "protein": 1.8,
+        "carbs": 7.1,
+        "fat": 0.2,
+        "fiber": 3.4,
+        "sugars": 1.4
+    },
+    "VE015": {
+        "food_name": "cluster beans (gwaar phali)",
+        "calories": 16,
+        "protein": 3.2,
+        "carbs": 4.0,
+        "fat": 0.2,
+        "fiber": 3.0,
+        "sugars": 1.0
+    },
+    "VE016": {
+        "food_name": "broad beans (sem phali)",
+        "calories": 88,
+        "protein": 8.0,
+        "carbs": 17.6,
+        "fat": 0.7,
+        "fiber": 5.4,
+        "sugars": 1.8
+    },
+    "VE017": {
+        "food_name": "hyacinth beans (avarakkai)",
+        "calories": 47,
+        "protein": 4.0,
+        "carbs": 8.0,
+        "fat": 0.5,
+        "fiber": 2.0,
+        "sugars": 1.0
+    },
+    "VE018": {
+        "food_name": "cowpea pods / yardlong beans (lobia phali / barbati)",
+        "calories": 47,
+        "protein": 2.8,
+        "carbs": 8.4,
+        "fat": 0.4,
+        "fiber": 2.7,
+        "sugars": 1.5
+    },
+    "VE019": {
+        "food_name": "winged beans (goa bean)",
+        "calories": 49,
+        "protein": 6.0,
+        "carbs": 7.0,
+        "fat": 0.9,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE020": {
+        "food_name": "sword beans (makhan sem)",
+        "calories": 38,
+        "protein": 3.0,
+        "carbs": 7.0,
+        "fat": 0.2,
+        "fiber": 2.5,
+        "sugars": 1.0
+    },
+    "VE021": {
+        "food_name": "chickpea pods green (choliya / hara chana)",
+        "calories": 120,
+        "protein": 8.9,
+        "carbs": 21.0,
+        "fat": 2.6,
+        "fiber": 6.0,
+        "sugars": 3.0
+    },
+    "VE022": {
+        "food_name": "pigeon pea pods green (tuvar lilva)",
+        "calories": 120,
+        "protein": 7.0,
+        "carbs": 22.0,
+        "fat": 1.5,
+        "fiber": 6.0,
+        "sugars": 3.0
+    },
+    "VE023": {
+        "food_name": "bottle gourd (lauki / ghiya)",
+        "calories": 14,
+        "protein": 0.6,
+        "carbs": 3.4,
+        "fat": 0.1,
+        "fiber": 0.5,
+        "sugars": 2.0
+    },
+    "VE024": {
+        "food_name": "bitter gourd (karela)",
+        "calories": 17,
+        "protein": 1.0,
+        "carbs": 3.4,
+        "fat": 0.2,
+        "fiber": 2.8,
+        "sugars": 1.0
+    },
+    "VE025": {
+        "food_name": "ridge gourd (torai / turai)",
+        "calories": 20,
+        "protein": 0.6,
+        "carbs": 4.3,
+        "fat": 0.2,
+        "fiber": 1.7,
+        "sugars": 0.5
+    },
+    "VE026": {
+        "food_name": "sponge gourd (gilki / dhundhul)",
+        "calories": 20,
+        "protein": 0.6,
+        "carbs": 4.3,
+        "fat": 0.2,
+        "fiber": 1.7,
+        "sugars": 0.5
+    },
+    "VE027": {
+        "food_name": "pointed gourd (parwal / patal)",
+        "calories": 20,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 0.2,
+        "fiber": 3.0,
+        "sugars": 1.0
+    },
+    "VE028": {
+        "food_name": "ivy gourd (kundru / tendli)",
+        "calories": 21,
+        "protein": 1.4,
+        "carbs": 4.3,
+        "fat": 0.1,
+        "fiber": 1.5,
+        "sugars": 0.3
+    },
+    "VE029": {
+        "food_name": "snake gourd (chichinda / padavali)",
+        "calories": 18,
+        "protein": 1.0,
+        "carbs": 3.5,
+        "fat": 0.2,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE030": {
+        "food_name": "ash gourd / winter melon (pethakaddu)",
+        "calories": 13,
+        "protein": 0.4,
+        "carbs": 3.0,
+        "fat": 0.1,
+        "fiber": 0.6,
+        "sugars": 1.5
+    },
+    "VE031": {
+        "food_name": "pumpkin yellow/orange (kaddu / sitaphal)",
+        "calories": 26,
+        "protein": 1.0,
+        "carbs": 6.5,
+        "fat": 0.1,
+        "fiber": 0.5,
+        "sugars": 2.8
+    },
+    "VE032": {
+        "food_name": "green pumpkin (hara kaddu)",
+        "calories": 20,
+        "protein": 0.8,
+        "carbs": 4.5,
+        "fat": 0.1,
+        "fiber": 0.6,
+        "sugars": 2.0
+    },
+    "VE033": {
+        "food_name": "apple gourd (tinda)",
+        "calories": 21,
+        "protein": 1.4,
+        "carbs": 4.0,
+        "fat": 0.1,
+        "fiber": 1.2,
+        "sugars": 1.5
+    },
+    "VE034": {
+        "food_name": "spiny gourd / teasel gourd (kakrol / kantola)",
+        "calories": 44,
+        "protein": 2.0,
+        "carbs": 8.0,
+        "fat": 0.4,
+        "fiber": 3.0,
+        "sugars": 1.5
+    },
+    "VE035": {
+        "food_name": "chayote / chow-chow (bangalore baingan)",
+        "calories": 19,
+        "protein": 0.8,
+        "carbs": 4.5,
+        "fat": 0.1,
+        "fiber": 1.7,
+        "sugars": 1.8
+    },
+    "VE036": {
+        "food_name": "elephant apple (chalta)",
+        "calories": 65,
+        "protein": 1.0,
+        "carbs": 15.0,
+        "fat": 0.3,
+        "fiber": 3.0,
+        "sugars": 10.0
+    },
+    "VE037": {
+        "food_name": "cauliflower (phool gobhi)",
+        "calories": 25,
+        "protein": 1.9,
+        "carbs": 5.0,
+        "fat": 0.3,
+        "fiber": 2.0,
+        "sugars": 1.9
+    },
+    "VE038": {
+        "food_name": "cabbage green (patta gobhi / bandh gobhi)",
+        "calories": 25,
+        "protein": 1.3,
+        "carbs": 6.0,
+        "fat": 0.1,
+        "fiber": 2.5,
+        "sugars": 3.2
+    },
+    "VE039": {
+        "food_name": "broccoli (broccoli)",
+        "calories": 34,
+        "protein": 2.8,
+        "carbs": 6.6,
+        "fat": 0.4,
+        "fiber": 2.6,
+        "sugars": 1.7
+    },
+    "VE040": {
+        "food_name": "purple cabbage (lal patta gobhi)",
+        "calories": 31,
+        "protein": 1.4,
+        "carbs": 7.4,
+        "fat": 0.2,
+        "fiber": 2.1,
+        "sugars": 3.0
+    },
+    "VE041": {
+        "food_name": "brussels sprouts (button gobhi)",
+        "calories": 43,
+        "protein": 3.4,
+        "carbs": 9.0,
+        "fat": 0.3,
+        "fiber": 3.8,
+        "sugars": 2.2
+    },
+    "VE042": {
+        "food_name": "bok choy (bok choy)",
+        "calories": 13,
+        "protein": 1.5,
+        "carbs": 2.2,
+        "fat": 0.2,
+        "fiber": 1.0,
+        "sugars": 1.2
+    },
+    "VE043": {
+        "food_name": "chinese cabbage (chinese patta gobhi)",
+        "calories": 12,
+        "protein": 1.2,
+        "carbs": 2.2,
+        "fat": 0.1,
+        "fiber": 1.0,
+        "sugars": 1.2
+    },
+    "VE044": {
+        "food_name": "kale (kale)",
+        "calories": 49,
+        "protein": 4.3,
+        "carbs": 8.8,
+        "fat": 0.9,
+        "fiber": 3.6,
+        "sugars": 2.0
+    },
+    "VE045": {
+        "food_name": "romanesco broccoli (romanesco)",
+        "calories": 25,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 0.3,
+        "fiber": 2.0,
+        "sugars": 1.5
+    },
+    "VE046": {
+        "food_name": "kohlrabi / turnip cabbage (ganth gobhi)",
+        "calories": 27,
+        "protein": 1.7,
+        "carbs": 6.2,
+        "fat": 0.1,
+        "fiber": 3.6,
+        "sugars": 2.6
+    },
+    "VE047": {
+        "food_name": "carrot red/desi (lal gajar)",
+        "calories": 41,
+        "protein": 0.9,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "fiber": 2.8,
+        "sugars": 4.7
+    },
+    "VE048": {
+        "food_name": "carrot orange/english (orange gajar)",
+        "calories": 41,
+        "protein": 0.9,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "fiber": 2.8,
+        "sugars": 4.7
+    },
+    "VE049": {
+        "food_name": "radish white (mooli)",
+        "calories": 16,
+        "protein": 0.7,
+        "carbs": 3.4,
+        "fat": 0.1,
+        "fiber": 1.6,
+        "sugars": 1.9
+    },
+    "VE050": {
+        "food_name": "pink/red radish (choti mooli)",
+        "calories": 20,
+        "protein": 0.8,
+        "carbs": 4.0,
+        "fat": 0.1,
+        "fiber": 1.8,
+        "sugars": 2.0
+    },
+    "VE051": {
+        "food_name": "sweet potato (shakarkand)",
+        "calories": 86,
+        "protein": 1.6,
+        "carbs": 20.1,
+        "fat": 0.1,
+        "fiber": 3.0,
+        "sugars": 4.2
+    },
+    "VE052": {
+        "food_name": "taro root / colocasia (arbi / ghuiya)",
+        "calories": 142,
+        "protein": 2.0,
+        "carbs": 34.0,
+        "fat": 0.1,
+        "fiber": 5.1,
+        "sugars": 0.5
+    },
+    "VE053": {
+        "food_name": "elephant foot yam (jimikand / suran)",
+        "calories": 118,
+        "protein": 2.0,
+        "carbs": 27.0,
+        "fat": 0.2,
+        "fiber": 4.1,
+        "sugars": 0.5
+    },
+    "VE054": {
+        "food_name": "beetroot (chukandar)",
+        "calories": 43,
+        "protein": 1.6,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "fiber": 2.8,
+        "sugars": 7.0
+    },
+    "VE055": {
+        "food_name": "turnip (shalgam)",
+        "calories": 28,
+        "protein": 0.9,
+        "carbs": 6.4,
+        "fat": 0.1,
+        "fiber": 1.8,
+        "sugars": 3.8
+    },
+    "VE056": {
+        "food_name": "tapioca / cassava (kappa / shimla alu)",
+        "calories": 160,
+        "protein": 1.4,
+        "carbs": 38.0,
+        "fat": 0.3,
+        "fiber": 1.8,
+        "sugars": 1.7
+    },
+    "VE057": {
+        "food_name": "purple yam (kand / ratalu)",
+        "calories": 118,
+        "protein": 1.5,
+        "carbs": 27.9,
+        "fat": 0.1,
+        "fiber": 4.1,
+        "sugars": 0.5
+    },
+    "VE058": {
+        "food_name": "chinese potato (koorka)",
+        "calories": 110,
+        "protein": 2.0,
+        "carbs": 24.0,
+        "fat": 0.2,
+        "fiber": 3.0,
+        "sugars": 1.0
+    },
+    "VE059": {
+        "food_name": "arrowroot (paniphal root)",
+        "calories": 65,
+        "protein": 4.2,
+        "carbs": 13.4,
+        "fat": 0.2,
+        "fiber": 1.3,
+        "sugars": 0.5
+    },
+    "VE060": {
+        "food_name": "air potato / bitter yam (gethi)",
+        "calories": 108,
+        "protein": 2.0,
+        "carbs": 25.0,
+        "fat": 0.2,
+        "fiber": 3.0,
+        "sugars": 1.0
+    },
+    "VE061": {
+        "food_name": "greater yam (khamalu)",
+        "calories": 118,
+        "protein": 2.0,
+        "carbs": 27.0,
+        "fat": 0.2,
+        "fiber": 4.1,
+        "sugars": 0.5
+    },
+    "VE062": {
+        "food_name": "radish pods (moongre / singri)",
+        "calories": 21,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 0.2,
+        "fiber": 2.0,
+        "sugars": 1.0
+    },
+    "VE063": {
+        "food_name": "horseradish root (sahjan ki jadh)",
+        "calories": 48,
+        "protein": 1.8,
+        "carbs": 11.0,
+        "fat": 0.7,
+        "fiber": 3.3,
+        "sugars": 7.0
+    },
+    "VE064": {
+        "food_name": "lotus root (kamal kakdi / bheen)",
+        "calories": 74,
+        "protein": 2.6,
+        "carbs": 17.2,
+        "fat": 0.1,
+        "fiber": 4.9,
+        "sugars": 0.5
+    },
+    "VE065": {
+        "food_name": "spinach (palak)",
+        "calories": 23,
+        "protein": 2.9,
+        "carbs": 3.6,
+        "fat": 0.4,
+        "fiber": 2.2,
+        "sugars": 0.4
+    },
+    "VE066": {
+        "food_name": "fenugreek leaves (methi)",
+        "calories": 49,
+        "protein": 4.4,
+        "carbs": 6.0,
+        "fat": 0.9,
+        "fiber": 1.1,
+        "sugars": 0.4
+    },
+    "VE067": {
+        "food_name": "mustard greens (sarson ka saag)",
+        "calories": 27,
+        "protein": 2.7,
+        "carbs": 4.7,
+        "fat": 0.2,
+        "fiber": 3.2,
+        "sugars": 1.3
+    },
+    "VE068": {
+        "food_name": "amaranth greens green (hari chaulai / thotakura)",
+        "calories": 23,
+        "protein": 2.1,
+        "carbs": 4.1,
+        "fat": 0.3,
+        "fiber": 2.8,
+        "sugars": 0.4
+    },
+    "VE069": {
+        "food_name": "amaranth greens red (lal chaulai / tambdi bhaji)",
+        "calories": 23,
+        "protein": 2.1,
+        "carbs": 4.1,
+        "fat": 0.3,
+        "fiber": 2.8,
+        "sugars": 0.4
+    },
+    "VE070": {
+        "food_name": "coriander leaves / cilantro (dhaniya patta)",
+        "calories": 23,
+        "protein": 2.1,
+        "carbs": 3.7,
+        "fat": 0.5,
+        "fiber": 2.8,
+        "sugars": 0.9
+    },
+    "VE071": {
+        "food_name": "mint leaves (pudina)",
+        "calories": 44,
+        "protein": 3.3,
+        "carbs": 8.0,
+        "fat": 0.7,
+        "fiber": 6.8,
+        "sugars": 0.5
+    },
+    "VE072": {
+        "food_name": "curry leaves (kadi patta)",
+        "calories": 108,
+        "protein": 6.1,
+        "carbs": 18.7,
+        "fat": 1.0,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE073": {
+        "food_name": "dill leaves (soya bhaji / shepu)",
+        "calories": 43,
+        "protein": 3.5,
+        "carbs": 7.0,
+        "fat": 1.1,
+        "fiber": 2.1,
+        "sugars": 0.0
+    },
+    "VE074": {
+        "food_name": "chenopodium / pigweed (bathua)",
+        "calories": 43,
+        "protein": 4.2,
+        "carbs": 7.3,
+        "fat": 0.8,
+        "fiber": 4.0,
+        "sugars": 0.5
+    },
+    "VE075": {
+        "food_name": "sorrel leaves (gongura / ambat chuka)",
+        "calories": 22,
+        "protein": 2.0,
+        "carbs": 3.2,
+        "fat": 0.7,
+        "fiber": 2.9,
+        "sugars": 0.4
+    },
+    "VE076": {
+        "food_name": "water spinach (kalmi saag)",
+        "calories": 19,
+        "protein": 2.6,
+        "carbs": 3.1,
+        "fat": 0.2,
+        "fiber": 2.1,
+        "sugars": 0.4
+    },
+    "VE077": {
+        "food_name": "malabar spinach (pui shak)",
+        "calories": 19,
+        "protein": 1.8,
+        "carbs": 3.4,
+        "fat": 0.3,
+        "fiber": 2.1,
+        "sugars": 0.4
+    },
+    "VE078": {
+        "food_name": "colocasia leaves (arbi ke patte)",
+        "calories": 35,
+        "protein": 4.0,
+        "carbs": 6.0,
+        "fat": 0.5,
+        "fiber": 3.0,
+        "sugars": 0.5
+    },
+    "VE079": {
+        "food_name": "drumstick / moringa leaves (munaga aku / murungai keerai)",
+        "calories": 64,
+        "protein": 9.4,
+        "carbs": 8.3,
+        "fat": 1.4,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE080": {
+        "food_name": "gongura red-stemmed (lal gongura)",
+        "calories": 22,
+        "protein": 2.0,
+        "carbs": 3.2,
+        "fat": 0.7,
+        "fiber": 2.9,
+        "sugars": 0.4
+    },
+    "VE081": {
+        "food_name": "radish greens (mooli ke patte)",
+        "calories": 25,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 0.3,
+        "fiber": 3.5,
+        "sugars": 0.5
+    },
+    "VE082": {
+        "food_name": "beetroot greens (chukandar patta)",
+        "calories": 22,
+        "protein": 2.2,
+        "carbs": 4.0,
+        "fat": 0.2,
+        "fiber": 3.7,
+        "sugars": 0.5
+    },
+    "VE083": {
+        "food_name": "purslane (kulfa / ghol)",
+        "calories": 20,
+        "protein": 2.0,
+        "carbs": 3.5,
+        "fat": 0.4,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE084": {
+        "food_name": "spring onion greens (hara pyaz)",
+        "calories": 32,
+        "protein": 1.8,
+        "carbs": 7.3,
+        "fat": 0.2,
+        "fiber": 2.6,
+        "sugars": 2.0
+    },
+    "VE085": {
+        "food_name": "garlic chives greens (hara lahsun)",
+        "calories": 30,
+        "protein": 3.0,
+        "carbs": 5.0,
+        "fat": 0.5,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE086": {
+        "food_name": "fiddlehead fern (lingru / kasrod)",
+        "calories": 34,
+        "protein": 4.6,
+        "carbs": 5.7,
+        "fat": 0.4,
+        "fiber": 1.8,
+        "sugars": 0.4
+    },
+    "VE087": {
+        "food_name": "pennywort / brahmi (gotu kola)",
+        "calories": 20,
+        "protein": 1.5,
+        "carbs": 3.5,
+        "fat": 0.2,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE088": {
+        "food_name": "chameleon plant (jamyrdoh)",
+        "calories": 25,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 0.3,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE089": {
+        "food_name": "houttuynia cordata / fish mint (fish mint)",
+        "calories": 22,
+        "protein": 2.0,
+        "carbs": 3.5,
+        "fat": 0.2,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE090": {
+        "food_name": "roselle leaves (khata saag)",
+        "calories": 23,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 0.3,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE091": {
+        "food_name": "fennel greens (saunf ke patte)",
+        "calories": 31,
+        "protein": 1.2,
+        "carbs": 7.3,
+        "fat": 0.2,
+        "fiber": 3.0,
+        "sugars": 0.5
+    },
+    "VE092": {
+        "food_name": "celery (celery)",
+        "calories": 16,
+        "protein": 0.7,
+        "carbs": 3.0,
+        "fat": 0.2,
+        "fiber": 1.6,
+        "sugars": 1.3
+    },
+    "VE093": {
+        "food_name": "lemongrass (lemongrass)",
+        "calories": 99,
+        "protein": 1.8,
+        "carbs": 25.3,
+        "fat": 0.3,
+        "fiber": 0.5,
+        "sugars": 0.5
+    },
+    "VE094": {
+        "food_name": "sweet basil (sabja leaves)",
+        "calories": 23,
+        "protein": 3.2,
+        "carbs": 2.7,
+        "fat": 0.6,
+        "fiber": 1.6,
+        "sugars": 0.3
+    },
+    "VE095": {
+        "food_name": "italian basil (tulsi variety)",
+        "calories": 23,
+        "protein": 3.2,
+        "carbs": 2.7,
+        "fat": 0.6,
+        "fiber": 1.6,
+        "sugars": 0.3
+    },
+    "VE096": {
+        "food_name": "lettuce (salad patta)",
+        "calories": 15,
+        "protein": 1.4,
+        "carbs": 2.9,
+        "fat": 0.2,
+        "fiber": 1.3,
+        "sugars": 0.8
+    },
+    "VE097": {
+        "food_name": "drumstick pods (sahjan / murungai)",
+        "calories": 37,
+        "protein": 2.1,
+        "carbs": 8.5,
+        "fat": 0.2,
+        "fiber": 3.2,
+        "sugars": 0.5
+    },
+    "VE098": {
+        "food_name": "banana flower / blossom (kela phool / vazhaipoo)",
+        "calories": 31,
+        "protein": 1.6,
+        "carbs": 7.0,
+        "fat": 0.3,
+        "fiber": 5.7,
+        "sugars": 0.5
+    },
+    "VE099": {
+        "food_name": "banana stem / pith (kela tana / vazhaithandu)",
+        "calories": 27,
+        "protein": 1.2,
+        "carbs": 6.0,
+        "fat": 0.3,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE100": {
+        "food_name": "pumpkin blossoms (kaddu ka phool)",
+        "calories": 19,
+        "protein": 1.5,
+        "carbs": 3.5,
+        "fat": 0.2,
+        "fiber": 1.8,
+        "sugars": 0.5
+    },
+    "VE101": {
+        "food_name": "jute plant flowers (pat shak phool)",
+        "calories": 35,
+        "protein": 2.0,
+        "carbs": 7.0,
+        "fat": 0.3,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE102": {
+        "food_name": "cauliflower stalks (gobhi ka danthal)",
+        "calories": 25,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fat": 0.2,
+        "fiber": 2.0,
+        "sugars": 1.0
+    },
+    "VE103": {
+        "food_name": "agathi flowers (bok phool)",
+        "calories": 30,
+        "protein": 2.5,
+        "carbs": 6.0,
+        "fat": 0.3,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE104": {
+        "food_name": "neem flowers (neem phool)",
+        "calories": 45,
+        "protein": 3.0,
+        "carbs": 9.0,
+        "fat": 0.5,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE105": {
+        "food_name": "mahua flowers (mahua)",
+        "calories": 110,
+        "protein": 1.5,
+        "carbs": 26.0,
+        "fat": 0.5,
+        "fiber": 3.0,
+        "sugars": 18.0
+    },
+    "VE106": {
+        "food_name": "kachnar flowers (kachnar phool)",
+        "calories": 45,
+        "protein": 3.0,
+        "carbs": 9.0,
+        "fat": 0.5,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE107": {
+        "food_name": "agastya leaves (agathi patta)",
+        "calories": 30,
+        "protein": 2.5,
+        "carbs": 6.0,
+        "fat": 0.3,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE108": {
+        "food_name": "sheesham leaves (sheesham patta)",
+        "calories": 40,
+        "protein": 3.0,
+        "carbs": 8.0,
+        "fat": 0.4,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE109": {
+        "food_name": "fresh green peas (hara matar)",
+        "calories": 81,
+        "protein": 5.4,
+        "carbs": 14.5,
+        "fat": 0.4,
+        "fiber": 5.1,
+        "sugars": 5.7
+    },
+    "VE110": {
+        "food_name": "fresh fenugreek pods (methi dana phali)",
+        "calories": 49,
+        "protein": 4.4,
+        "carbs": 6.0,
+        "fat": 0.9,
+        "fiber": 1.1,
+        "sugars": 0.4
+    },
+    "VE111": {
+        "food_name": "tamarind pods green (kacha imli)",
+        "calories": 62,
+        "protein": 2.8,
+        "carbs": 16.0,
+        "fat": 0.6,
+        "fiber": 5.1,
+        "sugars": 3.0
+    },
+    "VE112": {
+        "food_name": "raw mango (kacha aam / keri)",
+        "calories": 60,
+        "protein": 0.8,
+        "carbs": 15.0,
+        "fat": 0.4,
+        "fiber": 1.6,
+        "sugars": 13.7
+    },
+    "VE113": {
+        "food_name": "star gooseberry (harfarauri)",
+        "calories": 44,
+        "protein": 0.6,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "fiber": 4.3,
+        "sugars": 6.0
+    },
+    "VE114": {
+        "food_name": "capers fresh (ker)",
+        "calories": 23,
+        "protein": 2.4,
+        "carbs": 4.9,
+        "fat": 0.9,
+        "fiber": 3.2,
+        "sugars": 0.4
+    },
+    "VE115": {
+        "food_name": "desert beans (sangri)",
+        "calories": 35,
+        "protein": 3.0,
+        "carbs": 7.0,
+        "fat": 0.5,
+        "fiber": 4.0,
+        "sugars": 1.0
+    },
+    "VE116": {
+        "food_name": "button mushroom (button mushroom)",
+        "calories": 22,
+        "protein": 3.1,
+        "carbs": 3.3,
+        "fat": 0.3,
+        "fiber": 1.0,
+        "sugars": 1.7
+    },
+    "VE117": {
+        "food_name": "oyster mushroom (oyster mushroom)",
+        "calories": 33,
+        "protein": 3.3,
+        "carbs": 6.0,
+        "fat": 0.4,
+        "fiber": 2.3,
+        "sugars": 1.0
+    },
+    "VE118": {
+        "food_name": "milky mushroom (milky mushroom)",
+        "calories": 25,
+        "protein": 3.0,
+        "carbs": 4.5,
+        "fat": 0.3,
+        "fiber": 1.5,
+        "sugars": 1.0
+    },
+    "VE119": {
+        "food_name": "shiitake mushroom (shiitake)",
+        "calories": 34,
+        "protein": 2.2,
+        "carbs": 7.0,
+        "fat": 0.5,
+        "fiber": 2.5,
+        "sugars": 2.0
+    },
+    "VE120": {
+        "food_name": "sweet corn (macca dana)",
+        "calories": 86,
+        "protein": 3.2,
+        "carbs": 19.0,
+        "fat": 1.2,
+        "fiber": 2.7,
+        "sugars": 6.3
+    },
+    "VE121": {
+        "food_name": "baby corn (baby corn)",
+        "calories": 26,
+        "protein": 1.0,
+        "carbs": 6.0,
+        "fat": 0.2,
+        "fiber": 0.9,
+        "sugars": 2.0
+    },
+    "VE122": {
+        "food_name": "asparagus (asparagus)",
+        "calories": 20,
+        "protein": 2.2,
+        "carbs": 3.9,
+        "fat": 0.1,
+        "fiber": 2.1,
+        "sugars": 1.9
+    },
+    "VE123": {
+        "food_name": "zucchini green (zucchini)",
+        "calories": 17,
+        "protein": 1.2,
+        "carbs": 3.1,
+        "fat": 0.3,
+        "fiber": 1.0,
+        "sugars": 2.5
+    },
+    "VE124": {
+        "food_name": "zucchini yellow (peeli zucchini)",
+        "calories": 17,
+        "protein": 1.2,
+        "carbs": 3.1,
+        "fat": 0.3,
+        "fiber": 1.0,
+        "sugars": 2.5
+    },
+    "VE125": {
+        "food_name": "cherry tomatoes (cherry tamatar)",
+        "calories": 18,
+        "protein": 0.9,
+        "carbs": 3.9,
+        "fat": 0.2,
+        "fiber": 1.2,
+        "sugars": 2.6
+    },
+    "VE126": {
+        "food_name": "jalapeno (jalapeno)",
+        "calories": 29,
+        "protein": 0.9,
+        "carbs": 6.5,
+        "fat": 0.4,
+        "fiber": 2.8,
+        "sugars": 4.0
+    },
+    "VE127": {
+        "food_name": "leek (leek)",
+        "calories": 31,
+        "protein": 1.5,
+        "carbs": 7.6,
+        "fat": 0.3,
+        "fiber": 1.8,
+        "sugars": 3.9
+    },
+    "VE128": {
+        "food_name": "avocado (butter fruit)",
+        "calories": 160,
+        "protein": 2.0,
+        "carbs": 9.0,
+        "fat": 15.0,
+        "fiber": 7.0,
+        "sugars": 0.7
+    },
+    "VE129": {
+        "food_name": "bamboo shoots fresh (baans karoli / khorisa)",
+        "calories": 27,
+        "protein": 2.6,
+        "carbs": 5.2,
+        "fat": 0.3,
+        "fiber": 2.2,
+        "sugars": 3.0
+    },
+    "VE130": {
+        "food_name": "wild mushroom monsoon (rugda / futu)",
+        "calories": 25,
+        "protein": 3.0,
+        "carbs": 4.5,
+        "fat": 0.3,
+        "fiber": 2.0,
+        "sugars": 1.0
+    },
+    "VE131": {
+        "food_name": "tree tomato / tamarillo (tamarillo)",
+        "calories": 31,
+        "protein": 1.0,
+        "carbs": 7.0,
+        "fat": 0.3,
+        "fiber": 1.3,
+        "sugars": 4.3
+    },
+    "VE132": {
+        "food_name": "stink beans (yongchak / parkia)",
+        "calories": 47,
+        "protein": 5.0,
+        "carbs": 7.0,
+        "fat": 0.5,
+        "fiber": 2.0,
+        "sugars": 1.0
+    },
+    "VE133": {
+        "food_name": "olax zeylanica (melsavri)",
+        "calories": 40,
+        "protein": 3.0,
+        "carbs": 8.0,
+        "fat": 0.4,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE134": {
+        "food_name": "heartleaf false pickerel (koka)",
+        "calories": 25,
+        "protein": 2.0,
+        "carbs": 4.5,
+        "fat": 0.3,
+        "fiber": 2.0,
+        "sugars": 0.5
+    },
+    "VE135": {
+        "food_name": "wild silk cotton buds (shimul kali)",
+        "calories": 45,
+        "protein": 3.0,
+        "carbs": 9.0,
+        "fat": 0.5,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE136": {
+        "food_name": "water chestnut (singhara)",
+        "calories": 97,
+        "protein": 1.4,
+        "carbs": 23.9,
+        "fat": 0.1,
+        "fiber": 3.0,
+        "sugars": 4.8
+    },
+    "VE137": {
+        "food_name": "ficus carica wild (gular)",
+        "calories": 74,
+        "protein": 0.8,
+        "carbs": 19.0,
+        "fat": 0.3,
+        "fiber": 2.9,
+        "sugars": 16.0
+    },
+    "VE138": {
+        "food_name": "spine gourd wild (gheora)",
+        "calories": 44,
+        "protein": 2.0,
+        "carbs": 8.0,
+        "fat": 0.5,
+        "fiber": 3.0,
+        "sugars": 1.5
+    },
+    "VE139": {
+        "food_name": "nightshade leaves (makoi / manathakkali)",
+        "calories": 28,
+        "protein": 2.5,
+        "carbs": 5.0,
+        "fat": 0.3,
+        "fiber": 2.5,
+        "sugars": 0.5
+    },
+    "VE140": {
+        "food_name": "turkey berry (sundakkai)",
+        "calories": 37,
+        "protein": 3.0,
+        "carbs": 7.0,
+        "fat": 0.4,
+        "fiber": 3.0,
+        "sugars": 1.0
+    },
+    "VE141": {
+        "food_name": "wood apple (bel / kodabel)",
+        "calories": 134,
+        "protein": 7.4,
+        "carbs": 31.0,
+        "fat": 0.6,
+        "fiber": 9.0,
+        "sugars": 25.0
+    },
+    "VE142": {
+        "food_name": "roselle pods (kudrum / gongura pods)",
+        "calories": 49,
+        "protein": 1.0,
+        "carbs": 11.3,
+        "fat": 0.6,
+        "fiber": 2.3,
+        "sugars": 6.0
+    },
+    "VE143": {
+        "food_name": "gherkins pickling (small cucumber)",
+        "calories": 12,
+        "protein": 0.6,
+        "carbs": 2.3,
+        "fat": 0.1,
+        "fiber": 0.7,
+        "sugars": 1.5
+    },
+    "VE144": {
+        "food_name": "indian gooseberry (amla)",
+        "calories": 44,
+        "protein": 0.9,
+        "carbs": 10.0,
+        "fat": 0.6,
+        "fiber": 4.3,
+        "sugars": 4.8
+    },
+    "VE145": {
+        "food_name": "hog plum (amra)",
+        "calories": 46,
+        "protein": 0.5,
+        "carbs": 11.0,
+        "fat": 0.2,
+        "fiber": 2.0,
+        "sugars": 8.0
+    },
+    "VE146": {
+        "food_name": "star fruit (kamrakh)",
+        "calories": 31,
+        "protein": 1.0,
+        "carbs": 7.0,
+        "fat": 0.3,
+        "fiber": 2.8,
+        "sugars": 3.9
+    },
+    "VE147": {
+        "food_name": "air potato (yarba)",
+        "calories": 118,
+        "protein": 2.0,
+        "carbs": 27.0,
+        "fat": 0.2,
+        "fiber": 4.0,
+        "sugars": 1.0
+    },
+    "VE148": {
+        "food_name": "black nightshade (kamoni)",
+        "calories": 40,
+        "protein": 3.0,
+        "carbs": 8.0,
+        "fat": 0.4,
+        "fiber": 3.0,
+        "sugars": 1.0
+    },
+    "VE149": {
+        "food_name": "fern shoots (dhekia saag)",
+        "calories": 34,
+        "protein": 4.0,
+        "carbs": 6.0,
+        "fat": 0.4,
+        "fiber": 3.0,
+        "sugars": 1.0
+    },
+    "VE150": {
+        "food_name": "indian flat lemons (kaji nemu)",
+        "calories": 29,
+        "protein": 0.9,
+        "carbs": 9.3,
+        "fat": 0.3,
+        "fiber": 2.8,
+        "sugars": 2.5
+    }
+}
