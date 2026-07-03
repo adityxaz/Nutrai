@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import {
   PieChart,
   Pie,
@@ -32,7 +32,7 @@ const MACRO_CONFIG = [
   { key: "sugars",   label: "Sugars",   emoji: "🍬", unit: "g",    color: "#F472B6", bg: "rgba(244,114,182,0.08)" },
 ];
 
-export default function DietPage() {
+function DietContent() {
   const searchParams = useSearchParams();
   const foodFromUrl = searchParams.get("food");
 
@@ -696,5 +696,13 @@ export default function DietPage() {
         </div>
       )}
     </>
+  );
+}
+
+export default function DietPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <DietContent />
+    </Suspense>
   );
 }
