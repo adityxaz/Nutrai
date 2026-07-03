@@ -9,7 +9,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const handleLogin = async () => {
 
-  const API_BASE =
+const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ?? "http://127.0.0.1:8000";
 
 const response = await fetch(`${API_BASE}/login`, {
