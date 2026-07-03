@@ -268,7 +268,6 @@ export const workoutPlans = {
   Thursday: {
     title: "Upper Power",
     exercises: [
-      "medicine-ball-throws",
       "push-ups",
       "pull-ups",
       "bench-press",
