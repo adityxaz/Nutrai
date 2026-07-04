@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -76,8 +77,35 @@ export default function WorkoutPage() {
         </div>
       </div>
 
-      {/* STATS */}
+      {/* STATS ROW (Now includes Completion percentage as the highlight card) */}
       <div className="stats-row">
+        <div className="stat-card ring-card-top">
+          <div className="ring-wrap">
+            <svg width="65" height="65" viewBox="0 0 130 130" style={{ transform: "rotate(-90deg)" }}>
+              <circle cx="65" cy="65" r="54" fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth="14" />
+              <circle cx="65" cy="65" r="54" fill="none"
+                stroke="url(#ringG)" strokeWidth="14" strokeLinecap="round"
+                strokeDasharray="339"
+                strokeDashoffset={339 - (339 * completionPct) / 100}
+                style={{ transition: "stroke-dashoffset 0.7s ease" }}
+              />
+              <defs>
+                <linearGradient id="ringG" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stopColor="#a78bfa" />
+                  <stop offset="100%" stopColor="#6d28d9" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div className="ring-center">
+              <div className="ring-pct">{completionPct}%</div>
+            </div>
+          </div>
+          <div className="ring-text-side">
+            <div className="stat-label">Completion</div>
+            <div className="ring-label">{completedCount} of {totalExercises} done</div>
+          </div>
+        </div>
+
         {[
           { icon: "🔥", value: "4",                  unit: "day streak",        label: "Streak",        pct: "57%", color: "linear-gradient(90deg,#f97316,#ef4444)" },
           { icon: "✅", value: "3",                  unit: "/ 7",               label: "This Week",     pct: "43%", color: "linear-gradient(90deg,#34d399,#10b981)" },
@@ -133,7 +161,6 @@ export default function WorkoutPage() {
                         <div className="ex-img-placeholder">💪</div>
                       )}
 
-                      {/* dark gradient so text below is readable even on white images */}
                       <div className="ex-img-gradient" />
 
                       {done && (
@@ -175,34 +202,6 @@ export default function WorkoutPage() {
 
         {/* Right col */}
         <div className="right-col">
-
-          <div className="ring-card">
-            <div className="panel-eyebrow">Completion</div>
-            <div className="ring-wrap">
-              <svg width="130" height="130" viewBox="0 0 130 130" style={{ transform: "rotate(-90deg)" }}>
-                <circle cx="65" cy="65" r="54" fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth="11" />
-                <circle cx="65" cy="65" r="54" fill="none"
-                  stroke="url(#ringG)" strokeWidth="11" strokeLinecap="round"
-                  strokeDasharray="339"
-                  strokeDashoffset={339 - (339 * completionPct) / 100}
-                  style={{ transition: "stroke-dashoffset 0.7s ease" }}
-                />
-                <defs>
-                  <linearGradient id="ringG" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#a78bfa" />
-                    <stop offset="100%" stopColor="#6d28d9" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <div className="ring-center">
-                <div className="ring-pct">{completionPct}%</div>
-                <div className="ring-sub">done</div>
-              </div>
-            </div>
-            <div className="ring-label">{completedCount} of {totalExercises} exercises</div>
-            <div className="workout-badge">💪 {todayWorkout?.title || "Rest Day"}</div>
-          </div>
-
           <div className="week-card">
             <div className="panel-eyebrow">This Week</div>
             <div className="week-strip">
@@ -223,8 +222,8 @@ export default function WorkoutPage() {
               <span style={{ color: "#a78bfa" }}>3 / 7 done</span>
             </div>
           </div>
-
         </div>
+
       </div>
 
       {/* MODAL */}
@@ -239,7 +238,6 @@ export default function WorkoutPage() {
           >
             <button className="modal-close" onClick={handleClose}>✕</button>
 
-            {/* ── Modal image: dark bg so white/transparent images look clean ── */}
             <div className="modal-img-wrap">
               {selectedExercise.image ? (
                 <img src={selectedExercise.image} alt={selectedExercise.name} className="modal-img" />
@@ -307,8 +305,9 @@ export default function WorkoutPage() {
         .date-day { font-size:30px; font-weight:700; letter-spacing:-.04em; }
         .date-label { font-size:10px; color:#444; margin-top:2px; letter-spacing:.1em; }
 
-        .stats-row { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
-        .stat-card { background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07); border-radius:22px; padding:20px; position:relative; overflow:hidden; transition:border-color .25s,transform .25s; }
+        /* Modified to grid 5 elements across gracefully */
+        .stats-row { display:grid; grid-template-columns:1.3fr repeat(4, 1fr); gap:14px; }
+        .stat-card { background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07); border-radius:22px; padding:20px; position:relative; overflow:hidden; transition:border-color .25s,transform .25s; display:flex; flex-direction:column; justify-content:center; }
         .stat-card::before { content:''; position:absolute; top:0; left:0; right:0; height:1px; background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent); }
         .stat-card:hover { border-color:rgba(139,92,246,.25); transform:translateY(-2px); }
         .stat-icon { font-size:18px; margin-bottom:10px; }
@@ -318,82 +317,63 @@ export default function WorkoutPage() {
         .stat-bar { margin-top:12px; height:3px; border-radius:99px; background:rgba(255,255,255,.06); overflow:hidden; }
         .stat-fill { height:100%; border-radius:99px; transition:width .8s ease; }
 
+        /* Custom styling for inline progress ring design */
+        .ring-card-top {
+          background: linear-gradient(145deg, rgba(139,92,246,.12), rgba(109,40,217,.04));
+          border: 1px solid rgba(139,92,246,.25);
+          flex-direction: row !important;
+          align-items: center;
+          gap: 16px;
+          justify-content: flex-start;
+        }
+        .ring-wrap { position:relative; width:65px; height:65px; flex-shrink:0; display:flex; align-items:center; justify-content:center; }
+        .ring-center { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
+        .ring-pct { font-size:15px; font-weight:700; letter-spacing:-.02em; color: white; }
+        .ring-text-side { display:flex; flex-direction:column; gap:2px; }
+        .ring-label { font-size:13px; color:#aaa; font-weight:500; }
+
         .main-grid { display:grid; grid-template-columns:1fr 300px; gap:16px; align-items:start; }
 
         .exercises-panel { background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07); border-radius:24px; padding:26px; }
-        .panel-eyebrow { font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:#444; margin-bottom:6px; }
         .panel-title { font-size:18px; font-weight:700; letter-spacing:-.02em; }
         .panel-sub { font-size:12px; color:#555; margin-top:4px; margin-bottom:20px; }
 
         .exercise-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
 
-        /* ── Exercise card ── */
         .ex-card {
-          border-radius:24px; overflow:hidden;
-          background:#0d0d14;
-          border:1px solid rgba(255,255,255,.07);
-          cursor:pointer;
-          transition:transform .2s, border-color .2s, box-shadow .2s;
-          display:flex; flex-direction:column;
+          border-radius:24px; overflow:hidden; background:#0d0d14; border:1px solid rgba(255,255,255,.07);
+          cursor:pointer; transition:transform .2s, border-color .2s, box-shadow .2s; display:flex; flex-direction:column;
         }
         .ex-card:hover { transform:translateY(-4px); border-color:rgba(139,92,246,.4); box-shadow:0 16px 40px rgba(139,92,246,.14); }
         .ex-card-done { border-color:rgba(52,211,153,.3) !important; }
 
-        /* Image wrapper — fixed height, dark bg eliminates checkerboard */
         .ex-img-wrap {
-          position:relative;
-          width:100%; height:200px;
-          background:#111118;          /* dark solid bg — no checkerboard */
-          overflow:hidden;
+          position:relative; width:100%; height:200px; background:#111118; overflow:hidden;
           display:flex; align-items:center; justify-content:center;
         }
         .ex-img {
-          width:100%; height:100%;
-          object-fit:contain;           /* show whole figure, never crop */
-          object-position:center;
-          display:block;
-          /* mix-blend-mode removes white backgrounds on PNG/GIF anatomy images */
-          mix-blend-mode:luminosity;
-          filter:brightness(1.05) contrast(1.05);
-          transition:transform .35s ease;
+          width:100%; height:100%; object-fit:contain; object-position:center; display:block;
+          mix-blend-mode:luminosity; filter:brightness(1.05) contrast(1.05); transition:transform .35s ease;
         }
         .ex-card:hover .ex-img { transform:scale(1.06); }
         .ex-img-placeholder { font-size:40px; }
-
-        /* Subtle dark vignette at bottom of image */
-        .ex-img-gradient {
-          position:absolute; bottom:0; left:0; right:0; height:60px;
-          background:linear-gradient(to bottom, transparent, #0d0d14);
-          pointer-events:none;
-        }
-
-        .ex-done-overlay {
-          position:absolute; inset:0;
-          background:rgba(16,185,129,.3);
-          display:flex; align-items:center; justify-content:center;
-          backdrop-filter:blur(3px);
-        }
+        .ex-img-gradient { position:absolute; bottom:0; left:0; right:0; height:60px; background:linear-gradient(to bottom, transparent, #0d0d14); pointer-events:none; }
+        .ex-done-overlay { position:absolute; inset:0; background:rgba(16,185,129,.3); display:flex; align-items:center; justify-content:center; backdrop-filter:blur(3px); }
         .ex-num-badge {
-          position:absolute; top:10px; left:10px;
-          width:26px; height:26px; border-radius:8px;
-          background:rgba(0,0,0,.65); backdrop-filter:blur(8px);
-          border:1px solid rgba(255,255,255,.12);
-          display:flex; align-items:center; justify-content:center;
-          font-size:11px; font-weight:700; color:white;
+          position:absolute; top:10px; left:10px; width:26px; height:26px; border-radius:8px;
+          background:rgba(0,0,0,.65); backdrop-filter:blur(8px); border:1px solid rgba(255,255,255,.12);
+          display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; color:white;
         }
 
-        /* Info section */
-        .ex-info { padding:14px 14px 14px; display:flex; justify-content:space-between; align-items:flex-end; gap:10px; }
+        .ex-info { padding:14px; display:flex; justify-content:space-between; align-items:flex-end; gap:10px; }
         .ex-info-top { flex:1; }
         .ex-name { font-size:14px; font-weight:600; color:#e5e7eb; line-height:1.3; }
         .ex-muscles { font-size:11px; color:#555; margin-top:3px; }
         .ex-sets-label { font-size:11px; color:#6b7280; margin-top:6px; font-family:monospace; }
 
         .ex-checkbox {
-          width:26px; height:26px; border-radius:9px; flex-shrink:0;
-          border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.04);
-          display:flex; align-items:center; justify-content:center;
-          cursor:pointer; transition:background .2s, border-color .2s, transform .15s;
+          width:26px; height:26px; border-radius:9px; flex-shrink:0; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.04);
+          display:flex; align-items:center; justify-content:center; cursor:pointer; transition:background .2s, border-color .2s, transform .15s;
         }
         .ex-checkbox:hover { border-color:rgba(139,92,246,.5); transform:scale(1.1); }
         .ex-checkbox-done { background:linear-gradient(135deg,#10b981,#059669) !important; border-color:transparent !important; }
@@ -404,15 +384,6 @@ export default function WorkoutPage() {
         .rest-sub { font-size:12px; color:#444; margin-top:6px; }
 
         .right-col { display:flex; flex-direction:column; gap:14px; }
-
-        .ring-card { background:linear-gradient(145deg,rgba(139,92,246,.1),rgba(109,40,217,.05)); border:1px solid rgba(139,92,246,.2); border-radius:22px; padding:24px; text-align:center; }
-        .ring-wrap { position:relative; width:130px; height:130px; margin:16px auto 12px; }
-        .ring-center { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
-        .ring-pct { font-size:24px; font-weight:700; letter-spacing:-.03em; }
-        .ring-sub { font-size:10px; color:#555; text-transform:uppercase; letter-spacing:.06em; }
-        .ring-label { font-size:13px; color:#888; margin-bottom:10px; }
-        .workout-badge { display:inline-flex; align-items:center; gap:6px; background:rgba(139,92,246,.12); border:1px solid rgba(139,92,246,.22); border-radius:999px; padding:6px 14px; font-size:11px; color:#c4b5fd; font-weight:500; }
-
         .week-card { background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07); border-radius:22px; padding:22px; }
         .week-strip { display:flex; justify-content:space-between; margin-top:10px; }
         .week-day { display:flex; flex-direction:column; align-items:center; gap:4px; }
@@ -427,17 +398,15 @@ export default function WorkoutPage() {
         .modal-overlay { position:fixed; inset:0; z-index:50; display:flex; align-items:center; justify-content:center; padding:20px; backdrop-filter:blur(14px); }
         .overlay-in  { animation:overlay-in  .3s ease forwards; }
         .overlay-out { animation:overlay-out .26s ease forwards; }
-        @keyframes overlay-in  { from{background:rgba(5,3,10,0)}    to{background:rgba(5,3,10,.88)} }
-        @keyframes overlay-out { from{background:rgba(5,3,10,.88)}  to{background:rgba(5,3,10,0)}  }
+        @keyframes overlay-in  { from{background:rgba(5,3,10,0)} to{background:rgba(5,3,10,.88)} }
+        @keyframes overlay-out { from{background:rgba(5,3,10,.88)} to{background:rgba(5,3,10,0)} }
 
         .modal-box {
           position:relative; z-index:51; width:100%; max-width:520px;
           background:linear-gradient(160deg,rgba(18,11,34,.98) 0%,rgba(9,5,18,.99) 100%);
           border:1px solid rgba(139,92,246,.25); border-radius:28px;
           box-shadow:0 0 80px rgba(139,92,246,.15), 0 40px 80px rgba(0,0,0,.7);
-          overflow:hidden;
-          max-height:88vh;
-          overflow-y:auto;
+          overflow:hidden; max-height:88vh; overflow-y:auto;
         }
         .modal-in  { animation:modal-in  .4s cubic-bezier(.34,1.56,.64,1) both; }
         .modal-out { animation:modal-out .26s ease both; }
@@ -445,40 +414,20 @@ export default function WorkoutPage() {
         @keyframes modal-out { from{opacity:1;transform:none} to{opacity:0;transform:translateY(16px) scale(.96)} }
 
         .modal-close {
-          position:absolute; top:14px; right:14px; z-index:10;
-          width:32px; height:32px; border-radius:50%;
-          border:1px solid rgba(255,255,255,.1); background:rgba(0,0,0,.55);
-          color:#888; font-size:13px; cursor:pointer;
-          display:flex; align-items:center; justify-content:center;
-          transition:background .2s, color .2s; backdrop-filter:blur(8px);
+          position:absolute; top:14px; right:14px; z-index:10; width:32px; height:32px; border-radius:50%;
+          border:1px solid rgba(255,255,255,.1); background:rgba(0,0,0,.55); color:#888; font-size:13px;
+          cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background .2s, color .2s; backdrop-filter:blur(8px);
         }
         .modal-close:hover { background:rgba(139,92,246,.25); color:#c4b5fd; border-color:rgba(139,92,246,.45); }
 
-        /* Modal image: dark bg + contain so anatomy images never crop weirdly */
-        .modal-img-wrap {
-          position:relative; width:100%; height:240px;
-          background:#111118;
-          display:flex; align-items:center; justify-content:center;
-          overflow:hidden;
-        }
-        .modal-img {
-          width:100%; height:100%;
-          object-fit:contain;
-          object-position:center;
-          mix-blend-mode:luminosity;
-          filter:brightness(1.05) contrast(1.05);
-        }
-        .modal-img-fade {
-          position:absolute; bottom:0; left:0; right:0; height:80px;
-          background:linear-gradient(to bottom, transparent, rgba(18,11,34,.98));
-          pointer-events:none;
-        }
+        .modal-img-wrap { position:relative; width:100%; height:240px; background:#111118; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+        .modal-img { width:100%; height:100%; object-fit:contain; object-position:center; mix-blend-mode:luminosity; filter:brightness(1.05) contrast(1.05); }
+        .modal-img-fade { position:absolute; bottom:0; left:0; right:0; height:80px; background:linear-gradient(to bottom, transparent, rgba(18,11,34,.98)); pointer-events:none; }
         .modal-img-placeholder { font-size:64px; }
 
         .modal-header { padding:18px 22px 0; }
         .modal-name   { font-size:22px; font-weight:700; letter-spacing:-.03em; }
         .modal-muscles { font-size:12px; color:#555; margin-top:5px; }
-
         .modal-divider { height:1px; background:linear-gradient(to right,transparent,rgba(139,92,246,.3),transparent); margin:16px 22px; }
 
         .modal-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; padding:0 22px; }
@@ -494,12 +443,13 @@ export default function WorkoutPage() {
         .modal-instr-empty { font-size:13px; color:#444; font-style:italic; }
 
         /* ══════════════════════ MOBILE ══════════════════════ */
-        @media (max-width: 768px) {
-          .workout-page {
-            padding: 20px 16px 104px; /* bottom padding clears the fixed mobile tab bar */
-            gap: 16px;
-          }
+        @media (max-width: 992px) {
+          .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+          .ring-card-top { grid-column: span 2; }
+        }
 
+        @media (max-width: 768px) {
+          .workout-page { padding: 20px 16px 104px; gap: 16px; }
           .top-row { align-items: center; }
           .page-title { font-size: 26px; }
           .page-eyebrow { font-size: 10px; }
@@ -508,7 +458,6 @@ export default function WorkoutPage() {
           .date-day { font-size: 22px; }
           .date-label { font-size: 9px; }
 
-          .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
           .stat-card { padding: 14px; border-radius: 18px; }
           .stat-value { font-size: 20px; }
 
@@ -525,20 +474,14 @@ export default function WorkoutPage() {
           .ex-checkbox { width: 22px; height: 22px; }
 
           .right-col { flex-direction: row; flex-wrap: wrap; }
-          .ring-card, .week-card { flex: 1 1 100%; }
+          .week-card { flex: 1 1 100%; }
 
           .modal-overlay { padding: 0; align-items: flex-end; }
-          .modal-box {
-            max-width: 100%;
-            width: 100%;
-            border-radius: 24px 24px 0 0;
-            max-height: 92vh;
-          }
+          .modal-box { max-width: 100%; width: 100%; border-radius: 24px 24px 0 0; max-height: 92vh; }
           @keyframes modal-in  { from{opacity:0;transform:translateY(60px)} to{opacity:1;transform:none} }
           @keyframes modal-out { from{opacity:1;transform:none} to{opacity:0;transform:translateY(40px)} }
           .modal-img-wrap { height: 180px; }
           .modal-name { font-size: 19px; }
-          .modal-stats { grid-template-columns: repeat(3, 1fr); }
         }
 
         @media (max-width: 420px) {
