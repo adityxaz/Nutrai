@@ -4,14 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function Sidebar() {
-  
+
   const pathname = usePathname();
   if (
-  pathname === "/signup" ||
-  pathname === "/login"
-) {
-  return null;
-}
+    pathname === "/signup" ||
+    pathname === "/login"
+  ) {
+    return null;
+  }
 
   const navItems = [
     {
@@ -62,52 +62,87 @@ export default function Sidebar() {
   ];
 
   return (
-    <aside className="w-24 h-screen sticky top-0 bg-[#09090b] border-r border-zinc-900 flex flex-col items-center justify-between py-6 select-none z-40">
-      
-      {/* Top Logo / Brand Mark */}
-      <div className="flex flex-col items-center">
-        <div className="h-10 w-10 bg-gradient-to-b from-purple-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-md shadow-purple-500/10">
-          <span className="text-white text-base font-black tracking-tighter">N</span>
+    <>
+      {/* ---------- DESKTOP / TABLET SIDEBAR (unchanged, hidden below md) ---------- */}
+      <aside className="hidden md:flex w-24 h-screen sticky top-0 bg-[#09090b] border-r border-zinc-900 flex-col items-center justify-between py-6 select-none z-40">
+
+        {/* Top Logo / Brand Mark */}
+        <div className="flex flex-col items-center">
+          <div className="h-10 w-10 bg-gradient-to-b from-purple-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-md shadow-purple-500/10">
+            <span className="text-white text-base font-black tracking-tighter">N</span>
+          </div>
         </div>
-      </div>
 
-      {/* Center Dynamic Navigation Options */}
-      <nav className="flex flex-col gap-3 w-full px-2">
-        {navItems.map((item) => {
-          const isActive = pathname === item.href;
+        {/* Center Dynamic Navigation Options */}
+        <nav className="flex flex-col gap-3 w-full px-2">
+          {navItems.map((item) => {
+            const isActive = pathname === item.href;
 
-          return (
-            <Link key={item.href} href={item.href} className="w-full group">
-              <div className={`
-                w-full aspect-square rounded-2xl flex flex-col items-center justify-center gap-1 transition-all duration-200 ease-out relative
-                ${isActive 
-                  ? "bg-zinc-900 text-purple-400 font-semibold shadow-inner" 
-                  : "text-zinc-500 hover:text-zinc-200 hover:bg-zinc-900/40"
-                }
-              `}>
-                {/* Active side indicator capsule */}
-                {isActive && (
-                  <div className="absolute left-0 top-1/3 bottom-1/3 w-[3px] bg-purple-500 rounded-r-full" />
-                )}
+            return (
+              <Link key={item.href} href={item.href} className="w-full group">
+                <div className={`
+                  w-full aspect-square rounded-2xl flex flex-col items-center justify-center gap-1 transition-all duration-200 ease-out relative
+                  ${isActive
+                    ? "bg-zinc-900 text-purple-400 font-semibold shadow-inner"
+                    : "text-zinc-500 hover:text-zinc-200 hover:bg-zinc-900/40"
+                  }
+                `}>
+                  {/* Active side indicator capsule */}
+                  {isActive && (
+                    <div className="absolute left-0 top-1/3 bottom-1/3 w-[3px] bg-purple-500 rounded-r-full" />
+                  )}
 
-                <div className="transition-transform duration-200 ease-out group-hover:scale-105">
-                  {item.svg(`w-[20px] h-[20px] ${isActive ? "text-purple-400" : "text-zinc-400 group-hover:text-zinc-200"}`)}
+                  <div className="transition-transform duration-200 ease-out group-hover:scale-105">
+                    {item.svg(`w-[20px] h-[20px] ${isActive ? "text-purple-400" : "text-zinc-400 group-hover:text-zinc-200"}`)}
+                  </div>
+
+                  <span className={`text-[10px] tracking-tight font-medium ${isActive ? "text-zinc-200" : "text-zinc-500 group-hover:text-zinc-400"}`}>
+                    {item.label}
+                  </span>
                 </div>
-                
-                <span className={`text-[10px] tracking-tight font-medium ${isActive ? "text-zinc-200" : "text-zinc-500 group-hover:text-zinc-400"}`}>
-                  {item.label}
-                </span>
-              </div>
-            </Link>
-          );
-        })}
+              </Link>
+            );
+          })}
+        </nav>
+
+        {/* Small iOS Utility Profile Placeholder Footer */}
+        <div className="h-8 w-8 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center cursor-pointer hover:border-zinc-700 transition">
+          <span className="text-[10px] font-bold text-zinc-400 font-mono">U</span>
+        </div>
+
+      </aside>
+
+      {/* ---------- MOBILE BOTTOM TAB BAR (shown only below md) ---------- */}
+      <nav
+        className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#09090b]/95 backdrop-blur border-t border-zinc-900 select-none"
+        style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+      >
+        <div className="flex items-stretch justify-between px-1">
+          {navItems.map((item) => {
+            const isActive = pathname === item.href;
+
+            return (
+              <Link key={item.href} href={item.href} className="flex-1">
+                <div className={`
+                  relative flex flex-col items-center justify-center gap-0.5 py-2 transition-colors duration-200 ease-out
+                  ${isActive ? "text-purple-400" : "text-zinc-500 active:text-zinc-200"}
+                `}>
+                  {/* Active top indicator */}
+                  {isActive && (
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[3px] w-6 bg-purple-500 rounded-b-full" />
+                  )}
+
+                  {item.svg(`w-[20px] h-[20px] ${isActive ? "text-purple-400" : "text-zinc-500"}`)}
+
+                  <span className={`text-[9px] leading-none tracking-tight font-medium ${isActive ? "text-zinc-200" : "text-zinc-500"}`}>
+                    {item.label.trim()}
+                  </span>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
       </nav>
-
-      {/* Small iOS Utility Profile Placeholder Footer */}
-      <div className="h-8 w-8 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center cursor-pointer hover:border-zinc-700 transition">
-        <span className="text-[10px] font-bold text-zinc-400 font-mono">U</span>
-      </div>
-
-    </aside>
+    </>
   );
 }
