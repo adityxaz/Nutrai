@@ -436,6 +436,8 @@ export default function WorkoutPage() {
           border:1px solid rgba(139,92,246,.25); border-radius:28px;
           box-shadow:0 0 80px rgba(139,92,246,.15), 0 40px 80px rgba(0,0,0,.7);
           overflow:hidden;
+          max-height:88vh;
+          overflow-y:auto;
         }
         .modal-in  { animation:modal-in  .4s cubic-bezier(.34,1.56,.64,1) both; }
         .modal-out { animation:modal-out .26s ease both; }
@@ -490,6 +492,58 @@ export default function WorkoutPage() {
         .modal-instr-item  { display:flex; gap:10px; font-size:13px; color:#aaa; line-height:1.65; }
         .modal-instr-num   { color:#a78bfa; font-weight:700; font-family:monospace; flex-shrink:0; }
         .modal-instr-empty { font-size:13px; color:#444; font-style:italic; }
+
+        /* ══════════════════════ MOBILE ══════════════════════ */
+        @media (max-width: 768px) {
+          .workout-page {
+            padding: 20px 16px 104px; /* bottom padding clears the fixed mobile tab bar */
+            gap: 16px;
+          }
+
+          .top-row { align-items: center; }
+          .page-title { font-size: 26px; }
+          .page-eyebrow { font-size: 10px; }
+          .page-sub { font-size: 12px; }
+          .date-badge { padding: 10px 14px; border-radius: 14px; }
+          .date-day { font-size: 22px; }
+          .date-label { font-size: 9px; }
+
+          .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+          .stat-card { padding: 14px; border-radius: 18px; }
+          .stat-value { font-size: 20px; }
+
+          .main-grid { grid-template-columns: 1fr; }
+          .exercises-panel { padding: 18px; border-radius: 20px; }
+          .exercise-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+
+          .ex-img-wrap { height: 130px; }
+          .ex-name { font-size: 12.5px; }
+          .ex-muscles { font-size: 10px; }
+          .ex-sets-label { font-size: 10px; }
+          .ex-info { padding: 10px; }
+          .ex-checkbox { width: 22px; height: 22px; }
+
+          .right-col { flex-direction: row; flex-wrap: wrap; }
+          .ring-card, .week-card { flex: 1 1 100%; }
+
+          .modal-overlay { padding: 0; align-items: flex-end; }
+          .modal-box {
+            max-width: 100%;
+            width: 100%;
+            border-radius: 24px 24px 0 0;
+            max-height: 92vh;
+          }
+          @keyframes modal-in  { from{opacity:0;transform:translateY(60px)} to{opacity:1;transform:none} }
+          @keyframes modal-out { from{opacity:1;transform:none} to{opacity:0;transform:translateY(40px)} }
+          .modal-img-wrap { height: 180px; }
+          .modal-name { font-size: 19px; }
+          .modal-stats { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        @media (max-width: 420px) {
+          .exercise-grid { grid-template-columns: 1fr; }
+          .ex-img-wrap { height: 170px; }
+        }
       `}</style>
     </main>
   );

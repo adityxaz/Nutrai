@@ -219,6 +219,32 @@ export default function ExercisePage() {
         @keyframes pulse-once { 0%{transform:scale(1)} 40%{transform:scale(1.03)} 100%{transform:scale(1)} }
         .complete-btn-pulse { animation:pulse-once .4s ease; }
         .btn-inner { display:flex; align-items:center; justify-content:center; gap:8px; }
+
+        /* ══════════════════════ MOBILE ══════════════════════ */
+        @media (max-width: 768px) {
+          .back-btn { top:14px; left:14px; padding:7px 14px; font-size:12px; }
+
+          .hero-wrap { height: 260px; }
+          .hero-done-badge { top: 56px; right: 14px; font-size: 11px; }
+
+          .content {
+            padding: 0 18px 128px; /* extra bottom room clears the fixed mobile tab bar */
+            margin-top: -56px;
+          }
+
+          .ex-title { font-size: 26px; }
+          .ex-muscles-sub { font-size: 12px; }
+
+          .stat-chips { gap: 8px; margin-bottom: 16px; }
+          .chip { padding: 14px 8px; border-radius: 14px; }
+          .chip-value { font-size: 18px; }
+          .chip-icon { font-size: 17px; }
+
+          .section-card { padding: 18px; border-radius: 18px; margin-bottom: 10px; }
+          .instr-text { font-size: 13px; }
+
+          .complete-btn { padding: 15px; font-size: 14px; }
+        }
       `}</style>
     </main>
   );
