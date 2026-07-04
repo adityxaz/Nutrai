@@ -1,32 +1,8 @@
 "use client";
 
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-export default function RootPage() {
-  const router = useRouter();
-
-  useEffect(() => {
-    const user = localStorage.getItem("user");
-    router.replace(user ? "/dashboard" : "/signup");
-  }, [router]);
-
-  return (
-    <div
-      style={{
-        background: "#08080d",
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        color: "white",
-        fontFamily: "Sora, sans-serif",
-      }}
-    >
-      Loading...
-    </div>
-  );
-}
 
 // ── This is app/dashboard/page.tsx ──
 
