@@ -483,6 +483,55 @@ export default function StatsPage() {
         .history-name { font-size:13px; color:#ccc; }
         .history-date { font-size:11px; color:#444; margin-top:2px; }
         .history-cal  { font-size:13px; font-weight:500; color:#a78bfa; white-space:nowrap; }
+
+        /* ══════════════════════ MOBILE ══════════════════════ */
+        @media (max-width: 768px) {
+          .stats-page {
+            padding: 20px 16px 108px; /* bottom pad clears the fixed mobile tab bar */
+            gap: 16px;
+          }
+
+          .page-title { font-size: 26px; }
+          .page-eyebrow { font-size: 10px; }
+          .page-sub { font-size: 12px; }
+
+          /* Stats: 2x2 grid */
+          .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+          .stat-card { padding: 16px; border-radius: 18px; }
+          .stat-icon { font-size: 17px; margin-bottom: 8px; }
+          .stat-value { font-size: 19px; }
+          .stat-unit { font-size: 10px; }
+          .stat-label { font-size: 9px; }
+          .stat-bar { margin-top: 10px; }
+
+          /* All two-column rows stack */
+          .mid-row { grid-template-columns: 1fr; gap: 12px; }
+          .card { padding: 20px; border-radius: 18px; }
+
+          /* Profile card: horizontal layout so it doesn't feel oversized alone */
+          .profile-card { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+          .profile-card .card-eyebrow { width: 100%; margin-bottom: 4px; }
+          .avatar-ring { margin-bottom: 0; width: 48px; height: 48px; font-size: 19px; flex-shrink: 0; }
+          .profile-name { font-size: 18px; }
+          .profile-goal { margin-top: 6px; }
+
+          /* Chart: shrink height, keep full width via viewBox scaling */
+          .chart-wrap { height: 130px; }
+
+          .progress-big { font-size: 28px; }
+          .progress-row { font-size: 10px; flex-wrap: wrap; gap: 4px; }
+          .ontrack-badge { padding: 12px; }
+
+          .log-row { flex-direction: row; }
+          .log-input { padding: 11px 14px; font-size: 13px; }
+          .log-btn { padding: 11px 16px; font-size: 12px; }
+
+          /* Lists: shorter so the page doesn't get too long */
+          .scroll-list { max-height: 200px; }
+          .weight-row { font-size: 12px; padding: 8px 10px; }
+          .history-name { font-size: 12px; }
+          .history-icon { width: 30px; height: 30px; font-size: 13px; }
+        }
       `}</style>
     </main>
   );
