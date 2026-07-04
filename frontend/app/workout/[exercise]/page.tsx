@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useEffect, useState } from "react";
@@ -64,7 +63,7 @@ export default function WorkoutPage() {
   return (
     <main className="workout-page">
 
-      {/* TOP */}
+      {/* TOP STATUS ROW */}
       <div className="top-row">
         <div>
           <div className="page-eyebrow">{dayName} · {today.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}</div>
@@ -77,40 +76,41 @@ export default function WorkoutPage() {
         </div>
       </div>
 
-      {/* STATS ROW (Now includes Completion percentage as the highlight card) */}
-      <div className="stats-row">
-        <div className="stat-card ring-card-top">
-          <div className="ring-wrap">
-            <svg width="65" height="65" viewBox="0 0 130 130" style={{ transform: "rotate(-90deg)" }}>
-              <circle cx="65" cy="65" r="54" fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth="14" />
-              <circle cx="65" cy="65" r="54" fill="none"
-                stroke="url(#ringG)" strokeWidth="14" strokeLinecap="round"
-                strokeDasharray="339"
-                strokeDashoffset={339 - (339 * completionPct) / 100}
-                style={{ transition: "stroke-dashoffset 0.7s ease" }}
-              />
-              <defs>
-                <linearGradient id="ringG" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="#a78bfa" />
-                  <stop offset="100%" stopColor="#6d28d9" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <div className="ring-center">
-              <div className="ring-pct">{completionPct}%</div>
-            </div>
-          </div>
-          <div className="ring-text-side">
-            <div className="stat-label">Completion</div>
-            <div className="ring-label">{completedCount} of {totalExercises} done</div>
+      {/* HERO COMPLETION CARD (MOVED TO TOP) */}
+      <div className="ring-card hero-ring-card">
+        <div className="panel-eyebrow">Completion</div>
+        <div className="ring-wrap">
+          <svg width="140" height="140" viewBox="0 0 130 130" style={{ transform: "rotate(-90deg)" }}>
+            <circle cx="65" cy="65" r="54" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="10" />
+            <circle cx="65" cy="65" r="54" fill="none"
+              stroke="url(#ringG)" strokeWidth="10" strokeLinecap="round"
+              strokeDasharray="339"
+              strokeDashoffset={339 - (339 * completionPct) / 100}
+              style={{ transition: "stroke-dashoffset 0.7s ease" }}
+            />
+            <defs>
+              <linearGradient id="ringG" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="#a78bfa" />
+                <stop offset="100%" stopColor="#6d28d9" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div className="ring-center">
+            <div className="ring-pct">{completionPct}%</div>
+            <div className="ring-sub">done</div>
           </div>
         </div>
+        <div className="ring-label">{completedCount} of {totalExercises} exercises</div>
+        <div className="workout-badge">💪 {todayWorkout?.title || "Rest Day"}</div>
+      </div>
 
+      {/* METRICS & QUICK STATS ROW */}
+      <div className="stats-row">
         {[
           { icon: "🔥", value: "4",                  unit: "day streak",        label: "Streak",        pct: "57%", color: "linear-gradient(90deg,#f97316,#ef4444)" },
           { icon: "✅", value: "3",                  unit: "/ 7",               label: "This Week",     pct: "43%", color: "linear-gradient(90deg,#34d399,#10b981)" },
           { icon: "⚡", value: `${completedCount}`,  unit: `/ ${totalExercises}`,label: "Today's Done",  pct: `${completionPct}%`, color: "linear-gradient(90deg,#8b5cf6,#6d28d9)" },
-          { icon: "⏱️",value: "~55",                 unit: "min",               label: "Est. Duration", pct: "80%", color: "linear-gradient(90deg,#38bdf8,#0ea5e9)" },
+          { icon: "⏱️", value: "~55",                 unit: "min",               label: "Est. Duration", pct: "80%", color: "linear-gradient(90deg,#38bdf8,#0ea5e9)" },
         ].map((s) => (
           <div key={s.label} className="stat-card">
             <div className="stat-icon">{s.icon}</div>
@@ -121,10 +121,10 @@ export default function WorkoutPage() {
         ))}
       </div>
 
-      {/* MAIN GRID */}
+      {/* MAIN LAYOUT SPLIT */}
       <div className="main-grid">
 
-        {/* Exercise panel */}
+        {/* Left Panel: Exercise Flow */}
         <div className="exercises-panel">
           <div className="panel-eyebrow">Today&apos;s Exercises</div>
           <div className="panel-title">{todayWorkout?.title || "No Routine"}</div>
@@ -149,20 +149,13 @@ export default function WorkoutPage() {
                     className={`ex-card ${done ? "ex-card-done" : ""}`}
                     onClick={() => openModal(exercise)}
                   >
-                    {/* ── IMAGE ── */}
                     <div className="ex-img-wrap">
                       {exercise.image ? (
-                        <img
-                          src={exercise.image}
-                          alt={exercise.name}
-                          className="ex-img"
-                        />
+                        <img src={exercise.image} alt={exercise.name} className="ex-img" />
                       ) : (
                         <div className="ex-img-placeholder">💪</div>
                       )}
-
                       <div className="ex-img-gradient" />
-
                       {done && (
                         <div className="ex-done-overlay">
                           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -170,18 +163,15 @@ export default function WorkoutPage() {
                           </svg>
                         </div>
                       )}
-
                       <div className="ex-num-badge">{index + 1}</div>
                     </div>
 
-                    {/* ── INFO ── */}
                     <div className="ex-info">
                       <div className="ex-info-top">
                         <div className="ex-name">{exercise.name}</div>
                         <div className="ex-muscles">{exercise.muscles?.join(" · ")}</div>
                         <div className="ex-sets-label">{exercise.sets || 4} sets · {exercise.reps || 10} reps</div>
                       </div>
-
                       <div
                         className={`ex-checkbox ${done ? "ex-checkbox-done" : ""}`}
                         onClick={(e) => toggleComplete(e, exerciseId)}
@@ -200,7 +190,7 @@ export default function WorkoutPage() {
           )}
         </div>
 
-        {/* Right col */}
+        {/* Right Panel: Supplementary Info */}
         <div className="right-col">
           <div className="week-card">
             <div className="panel-eyebrow">This Week</div>
@@ -226,16 +216,10 @@ export default function WorkoutPage() {
 
       </div>
 
-      {/* MODAL */}
+      {/* DETAILED EXERCISE MODAL OVERLAY */}
       {selectedExercise && (
-        <div
-          className={`modal-overlay ${closing ? "overlay-out" : "overlay-in"}`}
-          onClick={handleClose}
-        >
-          <div
-            className={`modal-box ${closing ? "modal-out" : "modal-in"}`}
-            onClick={(e) => e.stopPropagation()}
-          >
+        <div className={`modal-overlay ${closing ? "overlay-out" : "overlay-in"}`} onClick={handleClose}>
+          <div className={`modal-box ${closing ? "modal-out" : "modal-in"}`} onClick={(e) => e.stopPropagation()}>
             <button className="modal-close" onClick={handleClose}>✕</button>
 
             <div className="modal-img-wrap">
@@ -305,9 +289,22 @@ export default function WorkoutPage() {
         .date-day { font-size:30px; font-weight:700; letter-spacing:-.04em; }
         .date-label { font-size:10px; color:#444; margin-top:2px; letter-spacing:.1em; }
 
-        /* Modified to grid 5 elements across gracefully */
-        .stats-row { display:grid; grid-template-columns:1.3fr repeat(4, 1fr); gap:14px; }
-        .stat-card { background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07); border-radius:22px; padding:20px; position:relative; overflow:hidden; transition:border-color .25s,transform .25s; display:flex; flex-direction:column; justify-content:center; }
+        /* Prominent Header Layout for Completion Chart */
+        .hero-ring-card {
+          background: linear-gradient(145deg, rgba(139,92,246,.08), rgba(109,40,217,.03));
+          border: 1px solid rgba(139,92,246,.2);
+          border-radius: 24px; padding: 32px 24px;
+          text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        }
+        .ring-wrap { position:relative; width:140px; height:140px; margin:18px auto 14px; }
+        .ring-center { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+        .ring-pct { font-size:28px; font-weight:700; letter-spacing:-.03em; }
+        .ring-sub { font-size:10px; color:#555; text-transform:uppercase; letter-spacing:.06em; }
+        .ring-label { font-size:14px; color:#888; margin-bottom:12px; font-weight:500; }
+        .workout-badge { display:inline-flex; align-items:center; gap:6px; background:rgba(139,92,246,.12); border:1px solid rgba(139,92,246,.22); border-radius:999px; padding:6px 14px; font-size:11px; color:#c4b5fd; font-weight:500; }
+
+        .stats-row { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+        .stat-card { background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07); border-radius:22px; padding:20px; position:relative; overflow:hidden; transition:border-color .25s,transform .25s; }
         .stat-card::before { content:''; position:absolute; top:0; left:0; right:0; height:1px; background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent); }
         .stat-card:hover { border-color:rgba(139,92,246,.25); transform:translateY(-2px); }
         .stat-icon { font-size:18px; margin-bottom:10px; }
@@ -317,27 +314,10 @@ export default function WorkoutPage() {
         .stat-bar { margin-top:12px; height:3px; border-radius:99px; background:rgba(255,255,255,.06); overflow:hidden; }
         .stat-fill { height:100%; border-radius:99px; transition:width .8s ease; }
 
-        /* Custom styling for inline progress ring design */
-        .ring-card-top {
-          background: linear-gradient(145deg, rgba(139,92,246,.12), rgba(109,40,217,.04));
-          border: 1px solid rgba(139,92,246,.25);
-          flex-direction: row !important;
-          align-items: center;
-          gap: 16px;
-          justify-content: flex-start;
-        }
-        .ring-wrap { position:relative; width:65px; height:65px; flex-shrink:0; display:flex; align-items:center; justify-content:center; }
-        .ring-center { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
-        .ring-pct { font-size:15px; font-weight:700; letter-spacing:-.02em; color: white; }
-        .ring-text-side { display:flex; flex-direction:column; gap:2px; }
-        .ring-label { font-size:13px; color:#aaa; font-weight:500; }
-
         .main-grid { display:grid; grid-template-columns:1fr 300px; gap:16px; align-items:start; }
-
         .exercises-panel { background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07); border-radius:24px; padding:26px; }
         .panel-title { font-size:18px; font-weight:700; letter-spacing:-.02em; }
         .panel-sub { font-size:12px; color:#555; margin-top:4px; margin-bottom:20px; }
-
         .exercise-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
 
         .ex-card {
@@ -443,11 +423,6 @@ export default function WorkoutPage() {
         .modal-instr-empty { font-size:13px; color:#444; font-style:italic; }
 
         /* ══════════════════════ MOBILE ══════════════════════ */
-        @media (max-width: 992px) {
-          .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-          .ring-card-top { grid-column: span 2; }
-        }
-
         @media (max-width: 768px) {
           .workout-page { padding: 20px 16px 104px; gap: 16px; }
           .top-row { align-items: center; }
@@ -458,6 +433,11 @@ export default function WorkoutPage() {
           .date-day { font-size: 22px; }
           .date-label { font-size: 9px; }
 
+          .hero-ring-card { padding: 24px 16px; }
+          .ring-wrap { width: 120px; height: 120px; }
+          .ring-pct { font-size: 24px; }
+
+          .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
           .stat-card { padding: 14px; border-radius: 18px; }
           .stat-value { font-size: 20px; }
 
