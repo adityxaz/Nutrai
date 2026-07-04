@@ -516,65 +516,6 @@ export default function DashboardPage() {
         .task-check.done { background:linear-gradient(135deg,#8b5cf6,#6d28d9); border-color:transparent; color:white; }
         .workout-btn { margin-top:16px; padding:10px 16px; width:100%; background:rgba(139,92,246,.1); border:1px solid rgba(139,92,246,.2); border-radius:12px; font-size:12px; color:#a78bfa; font-family:'Sora',sans-serif; cursor:pointer; transition:background .2s,border-color .2s; text-align:center; }
         .workout-btn:hover { background:rgba(139,92,246,.18); border-color:rgba(139,92,246,.35); }
-
-        /* ══════════════════════ MOBILE ══════════════════════ */
-        @media (max-width: 768px) {
-          .main-content { padding: 20px 16px 108px; gap: 16px; } /* bottom pad clears the fixed mobile tab bar */
-
-          .logout-btn { top: 12px; right: 14px; padding: 6px 12px; font-size: 11px; border-radius: 8px; }
-
-          /* Greeting + date fold into one compact row */
-          .top-row { grid-template-columns: 1fr; gap: 14px; }
-          .greeting-eyebrow { font-size: 10px; }
-          .greeting-name { font-size: 25px; line-height: 1.2; }
-          .greeting-name br { display: none; }
-          .greeting-sub { font-size: 12px; margin-top: 6px; }
-          .date-badge {
-            display: flex; align-items: center; justify-content: space-between;
-            padding: 12px 16px; border-radius: 14px; text-align: left;
-          }
-          .date-day { font-size: 20px; }
-          .date-label { margin-top: 0; font-size: 9px; }
-
-          /* Search */
-          .search-icon { top: 24px; font-size: 15px; left: 16px; }
-          .search-input { padding: 14px 16px 14px 44px; font-size: 13px; border-radius: 16px; }
-          .suggestions-drop { top: 50px; border-radius: 14px; }
-          .suggestion-item { padding: 12px 16px; font-size: 13px; }
-          .qty-adjust-btn { width: 28px; height: 28px; }
-
-          /* Stats: 2x2 grid, each card a little denser */
-          .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-          .stat-card { padding: 16px; border-radius: 18px; }
-          .stat-icon { font-size: 17px; margin-bottom: 8px; }
-          .stat-value { font-size: 19px; }
-          .stat-unit { font-size: 10px; }
-          .stat-label { font-size: 9px; }
-          .stat-bar { margin-top: 10px; }
-
-          /* Macro ring + goal card stack, ring card becomes centered */
-          .mid-row { grid-template-columns: 1fr; gap: 12px; }
-          .macros-card {
-            flex-direction: column; align-items: stretch;
-            padding: 22px; gap: 18px; text-align: left;
-          }
-          .ring-wrap { align-self: center; }
-          .macro-name { width: 56px; }
-          .macro-val { width: 52px; }
-
-          .goal-card { padding: 20px; border-radius: 18px; }
-          .goal-name { font-size: 19px; }
-          .goal-badge { margin-top: 16px; }
-
-          /* Bottom cards stack full width */
-          .bottom-row { grid-template-columns: 1fr; gap: 12px; }
-          .bottom-card { padding: 18px; border-radius: 18px; }
-          .card-eyebrow { margin-bottom: 12px; }
-
-          /* Bigger touch targets */
-          .task-check { width: 22px; height: 22px; }
-          .log-qty-btn { width: 24px; height: 24px; }
-        }
       `}</style>
     </main>
   );
