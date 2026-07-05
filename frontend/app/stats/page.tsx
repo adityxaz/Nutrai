@@ -48,7 +48,7 @@ export default function StatsPage() {
     ? `M${chartPoints[0].x},${chartPoints[0].y} ` +
       chartPoints.slice(1).map((p) => `L${p.x},${p.y}`).join(" ") +
       ` L${chartPoints[chartPoints.length - 1].x},${CHART_H - PAD_B} L${chartPoints[0].x},${CHART_H - PAD_B} Z`
-    : "";
+    : ""; 
 
   // ── Data fetching ───────────────────────────────────────────────────────
   useEffect(() => {
@@ -62,8 +62,19 @@ export default function StatsPage() {
       .catch(console.error);
 
     fetch(`${API_BASE}/targets/${parsed.user_id}`)
-      .then((r) => r.json()).then(setTargets)
-      .catch(console.error);
+  .then(async (r) => {
+    if (!r.ok) throw new Error("Failed to load targets");
+    return r.json();
+  })
+  .then(setTargets)
+  .catch((err) => {
+    console.error(err);
+    setTargets({
+      calories: 0,
+      protein: 0,
+      water: 0,
+    });
+  });
 
     fetch(`${API_BASE}/food-log/${parsed.user_id}`)
       .then((r) => r.json()).then(setHistory)
@@ -73,7 +84,7 @@ export default function StatsPage() {
   const logWeight = async () => {
     if (!weight || !user) return;
     try {
-      const res = await fetch(`${API_BASE}/weight-log/`, {
+      const res = await fetch(`${API_BASE}/weight-log`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -82,11 +93,18 @@ export default function StatsPage() {
           date:    new Date().toISOString().split("T")[0],
         }),
       });
-      if (res.ok) {
-        const updated = await fetch(`${API_BASE}/weight-log/${user.user_id}`).then((r) => r.json());
-        setWeightLogs(updated);
-        setWeight("");
-      }
+      if (!res.ok) {
+  console.error(await res.text());
+  alert("Failed to log weight.");
+  return;
+}
+
+const updated = await fetch(
+  `${API_BASE}/weight-log/${user.user_id}`
+).then((r) => r.json());
+
+setWeightLogs(updated);
+setWeight("");
     } catch (e) { console.error(e); }
   };
 
